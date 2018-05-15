@@ -61,7 +61,7 @@ class App extends Component {
           </div>
         </nav>
 
-
+        
         <footer className="page-footer">
           <div className="container">
             <div className="row">
@@ -94,6 +94,8 @@ class App extends Component {
       </div >
     );
   }
+
+
 }
 
 export default App; 
