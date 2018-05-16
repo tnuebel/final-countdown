@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
-import './App.css';
 import Title from './components/Title';
+import Home from "./components/Home"
+import Mission from "./components/Mission"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import './App.css';
+
+
 
 class App extends Component {
   render() {
     return (
       <Wrapper>
-        <div class="video-background">
-          <div class="video-foreground">
+        <div className="video-background">
+          <div className="video-foreground">
             <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=W0LHTWG-UmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>

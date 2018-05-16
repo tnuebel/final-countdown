@@ -1,10 +1,6 @@
 import React from "react";
 import "./Title.css";
 
-const Title = props => (
-    <div>
-        <h1>The Final Count Down</h1>
-    </div>
-);
+const Title = props => <h1 className="title">{props.children}</h1>;
 
 export default Title;
