@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import "./Mission.css"
+import "./Contact.css"
 
 
 class App extends Component {
     render() {
         return (
             <div>
-                <h1 className = "whiteTxt">Mission</h1>
+                <h1 className = "whiteTxt">Contact Form</h1>
             </div>
 
         )

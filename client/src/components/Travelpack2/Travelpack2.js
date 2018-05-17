@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import "./Mission.css"
+import "./Travelpack2.css"
 
 
 class App extends Component {
     render() {
         return (
             <div>
-                <h1 className = "whiteTxt">Mission</h1>
+                <h1 className = "whiteTxt">Travel Package 2</h1>
             </div>
 
         )
