@@ -4,4 +4,17 @@
 
 .title p {
     text-align: center;
+    color: #ffffff;
+    font-family: 'Sunflower', sans-serif;
+    font-family: 'Prosto One', cursive;
+    font-family: 'Audiowide', cursive;
+}
+
+.title p.titleStatement {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Sunflower', sans-serif;
+    font-family: 'Prosto One', cursive;
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
 }
