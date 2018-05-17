@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
 import Title from './components/Title';
 import Home from "./components/Home"
-import Mission from "./components/Mission"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from "./components/Home";
 import './App.css';
 import About from "./components/About";
 import Booking from "./components/Booking";
