@@ -3,7 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Title from './components/Title';
 import Home from "./components/Home"
 import Mission from "./components/Mission"
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
 
