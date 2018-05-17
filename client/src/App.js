@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
+import Greeting from "./components/Greeting"
+import Navbar from "./components/Navbar";
 import Title from './components/Title';
 import Home from "./components/Home"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -23,25 +25,39 @@ import Vision from "./components/Vision";
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/booking" component={Booking} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/faq" component={Faq} />
-          <Route exact path="/gallery" component={Gallery} />
-          <Route exact path="/gallery1" component={Gallery1} />
-          <Route exact path="/launchdates" component={Launchdates} />
-          <Route exact path="/mission" component={Mission} />
-          <Route exact path="/travelpackages" component={Travelpackages} />
-          <Route exact path="/travelpack1" component={Travelpack1} />
-          <Route exact path="/travelpack2" component={Travelpack2} />
-          <Route exact path="/travelpack3" component={Travelpack3} />
-          <Route exact path="/userhome" component={Userhome} />
-          <Route exact path="/vision" component={Vision} />
-        </div>
-      </Router>
+      <Wrapper>
+
+        <Navbar />
+
+        <Title>
+          <p>Final Count Down</p>
+          <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
+          <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
+        </Title>
+
+
+        <Router>
+          <div>
+            <Route exact path="/" component={Greeting} />
+            <Route exact path="/about" component={About} />
+            <Route path="/Home" component={Home} />
+            <Route exact path="/booking" component={Booking} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/faq" component={Faq} />
+            <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/gallery1" component={Gallery1} />
+            <Route exact path="/launchdates" component={Launchdates} />
+            <Route exact path="/mission" component={Mission} />
+            <Route exact path="/travelpackages" component={Travelpackages} />
+            <Route exact path="/travelpack1" component={Travelpack1} />
+            <Route exact path="/travelpack2" component={Travelpack2} />
+            <Route exact path="/travelpack3" component={Travelpack3} />
+            <Route exact path="/userhome" component={Userhome} />
+            <Route exact path="/vision" component={Vision} />
+          </div>
+        </Router>
+      </Wrapper>
+
     );
   }
 }

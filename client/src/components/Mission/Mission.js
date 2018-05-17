@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router';
 import "./Mission.css"
 
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h1 className = "whiteTxt">Mission</h1>
-            </div>
+const Mission = props => (
+<div>
+</div>
+);
 
-        )
-    }
-}
-
-export default App; 
+export default Mission; 
