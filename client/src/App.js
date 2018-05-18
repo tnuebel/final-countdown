@@ -27,19 +27,22 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar />
 
-        <Title>
+        {/* <Title>
           <br />
           <p>The Final Countdown</p>
           <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
           <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
           <br />
-        </Title>
+        </Title> */}
 
 
         <Router>
-          <div>
+        <div>
+          <Navbar />
+
+          <Title />
+          
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />
