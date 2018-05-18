@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./Booking.css"
 
 
-class App extends Component {
+class Booking extends Component {
     render() {
         return (
             <div>
@@ -13,4 +13,4 @@ class App extends Component {
     }
 }
 
-export default App; 
+export default Booking; 

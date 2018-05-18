@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./Gallery.css"
 
 
-class App extends Component {
+class Gallery extends Component {
     render() {
         return (
             <div>
@@ -13,4 +13,4 @@ class App extends Component {
     }
 }
 
-export default App; 
+export default Gallery; 
