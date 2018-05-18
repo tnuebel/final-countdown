@@ -7,8 +7,12 @@ import './Home.css';
 
 class Home extends Component {
     render() {
-         return (
+        return (
             <div>
+                <div className="video-background">
+                    <div className="video-foreground">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-aGISgOB6n0?rel=0&amp;controls=0&amp;showinfo=0&amp;start=0&amp;autoplay=1&amp;loop=1&amp;playlist=-aGISgOB6n0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>      </div>
+                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
@@ -50,12 +54,16 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-             
+
                 </div>
-           </div>
-             
+            </div>
+
         )
     }
+
+
+
+
 }
 
 export default Home;
