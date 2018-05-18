@@ -6,6 +6,11 @@ import Title from './components/Title';
 import Home from "./components/Home"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
+<<<<<<< HEAD
+import Home from "./components/Home"; 
+import Mission from "./components/Mission"; 
+import Payment from "./components/Payment"; 
+=======
 import About from "./components/About";
 import Booking from "./components/Booking";
 import Contact from "./components/Contact";
@@ -20,6 +25,7 @@ import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
+>>>>>>> 4712bd76985c1bd267f78593770b11313dfd35a0
 // import Wrapper from "./Components/Wrapper"
 
 class App extends Component {
@@ -36,6 +42,28 @@ class App extends Component {
         </Title>
 
 
+<<<<<<< HEAD
+            {/* <!-- Navbar links --> */}
+            <div className="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Purpose</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Mission</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Vision</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/payment" component={Payment} />
+         
+        </div>
+      </Router>
+=======
         <Router>
           <div>
             <Route exact path="/" component={Greeting} />
@@ -58,8 +86,13 @@ class App extends Component {
         </Router>
       </Wrapper>
 
+>>>>>>> 4712bd76985c1bd267f78593770b11313dfd35a0
     );
   }
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 4712bd76985c1bd267f78593770b11313dfd35a0
