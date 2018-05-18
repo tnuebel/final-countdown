@@ -28,11 +28,7 @@ class App extends Component {
       <Wrapper>
         <Navbar />
 
-        <Title>
-          {/* <p>Final Count Down</p>
-          <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
-          <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p> */}
-        </Title>
+        <Title />
 
         <Router>
           <div>

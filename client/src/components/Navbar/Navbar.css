@@ -5,5 +5,11 @@
     font-family: 'Audiowide', cursive;
 }
 
+#navButton {
+    width: auto;
+}
 
+#navPieces {
+    font-size: .5rem;
+}
 
