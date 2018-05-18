@@ -9,7 +9,7 @@ class App extends Component {
                 <h1>Travel Packages</h1>
                 <h3>We have several otions to choose from.</h3>
 
-                <Link to="../Travelpack1">
+                {/* <Link to="../Travelpack1">
                 <button type="button" class="btn btn-dark">Bronze</button>
                     </Link>
                     <Link to="../Travelpack2">
@@ -20,7 +20,7 @@ class App extends Component {
                     </Link>
                     <Link to="../Travelpack4">
                 <button type="button" class="btn btn-dark">Platinum</button>
-                    </Link>
+                    </Link> */}
 
 
 
