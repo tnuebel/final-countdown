@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Wrapper from "./components/Wrapper";
 import Greeting from "./components/Greeting"
 import Navbar from "./components/Navbar";
 import Title from './components/Title';
+import Wrapper from "./components/Wrapper";
 import Home from "./components/Home"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
@@ -20,27 +20,21 @@ import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
-// import Wrapper from "./Components/Wrapper"
+
 
 class App extends Component {
   render() {
     return (
       <Wrapper>
-
         <Navbar />
 
-        <Title>
-          <p>Final Count Down</p>
-          <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
-          <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
-        </Title>
-
+        <Title />
 
         <Router>
           <div>
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
-            <Route path="/Home" component={Home} />
+            <Route exact path="/Home" component={Home} />
             <Route exact path="/booking" component={Booking} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/faq" component={Faq} />
