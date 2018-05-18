@@ -20,7 +20,20 @@ import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
+import Login from './components/Login';
+import Profile from './components/Profile';
+import Signup from './components/Signup';
+import AuthService from './components/AuthService';
+import withAuth from './components/withAuth';
+import axios from "axios";
 
+const Auth = new AuthService();
+
+
+
+if(localStorage.getItem("id_token")) {
+    axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('id_token')}`;
+  }
 
 class App extends Component {
   render() {
@@ -48,6 +61,9 @@ class App extends Component {
             <Route exact path="/travelpack3" component={Travelpack3} />
             <Route exact path="/userhome" component={Userhome} />
             <Route exact path="/vision" component={Vision} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/signup" component={Signup} />
+            <Route exact path="/profile/:id" component={Profile} />
           </div>
         </Router>
       </Wrapper>
