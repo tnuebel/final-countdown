@@ -1,17 +1,7 @@
-/* body { */
-	/* font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
-	font-size: 13px;
-	
-	height: 100%;
-	background-color: #2574b0;
-	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-	background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-	background-size: 100px 100px;
-	
-	text-align: center; */
-/* } */
+.pad1{
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
 
 a.button {
     font-family: 'Sunflower', sans-serif;
@@ -22,9 +12,11 @@ a.button {
       text-align:center;
     padding:10px;
     position: relative;
-    left: 25%;
-    height: 125px;
-    width: 200px;
+    height: 90%;
+    width: 90%;
+    position:relative/absolute;
+    left:50%;
+    transform: translateX(-50%);
       
       text-shadow: /* Simulating Text Stroke */
           -1px -1px 0 #000, 
@@ -40,9 +32,9 @@ a.button {
     
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
-      border-radius: 3px;
+    border-radius: 3px;
       
-      background: rgba(0,0,0,0.25);
+    background: rgba(0,0,0,0.25);
   
       -o-box-shadow: 
           0 2px 8px rgba(0,0,0,0.5),
@@ -65,19 +57,19 @@ a.button {
           inset 0 10px 20px rgba(255,255,255,0.25),
           inset 0 -15px 30px rgba(0,0,0,0.3);
       
-  /*	box-shadow: 
-          0 2px 8px rgba(0,0,0,0.5), ... Exterior Shadow 
-          inset 0 1px rgba(255,255,255,0.3), ... Top light Line
-          inset 0 10px rgba(255,255,255,0.2), ... Top Light Shadow
-          inset 0 10px 20px rgba(255,255,255,0.25),  ... Sides Light Shadow 
-          inset 0 -15px 30px rgba(0,0,0,0.3);  ... Dark Background */
+  	box-shadow: 
+          0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */ 
+          inset 0 1px rgba(0, 0, 0, 0), /*  Top light Line */
+          inset 0 10px rgba(0,0,0,0), /*  Top Light Shadow */ 
+          inset 0 10px 20px rgba(255,255,255,0.25),  /*  Sides Light Shadow */  
+          inset 0 -15px 30px rgba(0,0,0,0.3);  /*  Dark Background */
   
       margin: 5px;
       display: inline-block;
       text-decoration: none;
   }
   
-  a.centerButton{
+  a.centerButton {
     height: 125px;
     width: 200px;
     font-size:1.5rem;
@@ -92,22 +84,34 @@ a.button {
                 linear-gradient(127deg, rgba(29,108,235,.8), rgba(29,108,235,0) 70.71%);
   
     box-shadow: 
-          0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+          0 2px 8px rgba(0,0,0,0), /* Exterior Shadow */
           inset 0 1px rgba(0,0,0,0), /* Top light Line */
           inset 0 10px rgba(0,0,0,0), /* Top Light Shadow */
           inset 0 10px 20px rgba(0,0,0,0), /* Sides Light Shadow */
           inset 0 -15px 30px rgba(0,0,0,0); /* Dark Background */
   }
+
+  a.outerButtonTopLetf{
+    height: 90%;
+    width: 50%;
+    margin-left: 0rem
+  }
   
+  a.outerButtonTopRight{
+    height: 90%;
+    width: 50%;
+    margin-right: 0rem
+  }
+
   a.outerButtonLetf{
-    height: 50px;
-    width: 400px;
+    height: 40%;
+    width: 90%;
     margin-left: 0rem
   }
   
   a.outerButtonRight{
-    height: 50px;
-    width: 400px;
+    height: 40%;
+    width: 90%;
     margin-right: 0rem
   }
   
