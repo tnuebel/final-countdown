@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import News from "../icons/News-24.png"
+import News from "../icons/News-36.png"
 import "./Greeting.css";
 
 const Greeting = props => (
