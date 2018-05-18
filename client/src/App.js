@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 import './App.css';
-import Home from "./components/Home"
-import Mission from "./components/Mission"
+import Home from "./components/Home"; 
+import Mission from "./components/Mission"; 
+import Payment from "./components/Payment"; 
 // import Wrapper from "./Components/Wrapper"
 
 class App extends Component {
@@ -43,9 +44,8 @@ class App extends Component {
             </div>
           </nav>
           <Route exact path="/" component={Home} />
-          {/* <Route exact path="/about" component={About} />
-          <Route exact path="/blog" component={Blog} />
-          <Route path="/contact" component={Contact} /> */}
+          <Route exact path="/payment" component={Payment} />
+         
         </div>
       </Router>
     );

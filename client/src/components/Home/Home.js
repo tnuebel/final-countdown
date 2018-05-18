@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './Home.css';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 // import './Payment'
 // import Wrapper from "./Components/Wrapper"
 
 class Home extends Component {
     render() {
-        return (
+         return (
             <div>
                 <div className="container">
                     <div className="row">
@@ -50,8 +50,9 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
+             
                 </div>
-            </div>
+           </div>
              
         )
     }

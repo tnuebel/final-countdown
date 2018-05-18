@@ -1,5 +1,6 @@
 .CreditCard {
   max-width: 400px;
+  margin: auto; 
 }
 .CreditCard .credit-card-list {
   list-style: none;
@@ -28,4 +29,10 @@
 }
 .CreditCard .alert .exp-cvc span:first-child {
   margin-right: 15px;
+} 
+.modal-container {
+  position: relative;
 }
+/* .modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+} */
