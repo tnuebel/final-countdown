@@ -20,6 +20,7 @@ import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
+import Review from "./components/Review";
 // import Wrapper from "./Components/Wrapper"
 
 class App extends Component {
@@ -54,6 +55,7 @@ class App extends Component {
             <Route exact path="/travelpack3" component={Travelpack3} />
             <Route exact path="/userhome" component={Userhome} />
             <Route exact path="/vision" component={Vision} />
+            <Route exact path="/review" component={Review} />
           </div>
         </Router>
       </Wrapper>

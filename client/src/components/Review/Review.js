@@ -14,39 +14,33 @@ class Review extends Component {
                         <div className="col-sm">
                             <div className="card">
                                 <h2>Great Experience</h2>
-                                <img src="https://fsmedia.imgix.net/fd/c7/a5/98/d61f/4184/a8e3/df675a625458/spoooooooky.jpeg" alt="Space" />
-                                <h1>Space Package 1</h1>
-                                <p className="title">Anti-Gravity Express</p>
-                                <div>
-                                </div>
-                                <p><button>Learn More</button></p>
+                                <img src="http://www.abc.net.au/news/image/8834718-3x2-940x627.jpg"alt="Space" />
+                                <h3>This was truly a great experience and I know great experiences.. can’t wait to go back! Gotta keep the aliens out #buildTheDome</h3>
+                                <p className="title">Donald Trump - POTUS</p>
                             </div>
                         </div>
                         <div className="col-sm">
                             <div className="card">
-                                <h2>FINAL COUNTDOWN</h2>
-                                <img src="https://www.vasc.org/wp-content/themes/meridian/video/video-bg.jpg" alt="Space" />
-                                <h1>Space Package 2</h1>
-                                <p className="title">Atmosphere Exit A</p>
-                                <p><button>Learn More</button></p>
+                                <h2>Better than marriage</h2>
+                                <img src="https://i.ytimg.com/vi/Bck2kAaGRWU/maxresdefault.jpg" alt="Space" />
+                                <h3>I was going to fund my daughters wedding in Hawaii but I figured the memories from this trip would last longer than than marriage</h3>
+                                <p className="title">Ron - Dallas TX</p>
                             </div>
                         </div>
                         <div className="col-sm">
                             <div className="card">
-                                <h2>FINAL COUNTDOWN</h2>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8A8QZHGjk_u5VgyMOBinRGdp1CCJ4YFvsC17qCt6KEdjsl2PVIw" alt="Space" />
-                                <h1>Space Package 3</h1>
-                                <p className="title">Atmosphere Exit B</p>
-                                <p><button>Learn More</button></p>
+                                <h2>Upchuck</h2>
+                                <img src="https://i.ytimg.com/vi/6JoawAJwVYg/maxresdefault.jpg" alt="Space" />
+                                <h3>Vomit commit lived up to its name.. BARFED everywhere!!! AWESOME!!!</h3>
+                                <p className="title">Steve - San Diego CA</p>
                             </div>
                         </div>
                         <div className="col-sm">
                             <div className="card">
-                                <h2>FINAL COUNTDOWN</h2>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo193kVsvn_oc0HkcSY5OmRM7_8DwQvoHnVHaNDmtqr8WiJ49Zlw" alt="Space" />
-                                <h1>Space Package 4</h1>
-                                <p className="title">Lunar Slum Lord</p>
-                                <p><button>Learn More</button></p>
+                                <h2>Disapointed</h2>
+                                <img src="https://pbs.twimg.com/media/DKxbCKSUIAARteR.jpg" alt="Space" />
+                                <h3>Tried going outside without my space suit on and they yelled at me. Will be flying United from now on.</h3>
+                                <p className="title">Sue - Kansas MO</p>
                             </div>
                         </div>
                     </div>
@@ -62,40 +56,7 @@ class Review extends Component {
 
 }
 
-export default Home;
-
-
-        
+export default Review;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           {/* This was truly a great experience and I know great experiences.. can’t wait to go back! gotta keep the aliens out #buildTheDome
-Donald Trump - POTUS
-
-I was going to fund my daughters wedding in Hawaii but I figured the memories from this trip would last longer than than marriage. 
-Ron - Dallas, Tx. 
-
-Vomit commit lived up to its name.. BARFED everywhere!!! AWESOME!!!
-Steve - San Diego CA
-
-Tried going outside without my space suit on and they yelled at me. Will be flying United from now on. 
-Sue - Kansas City MO */}
