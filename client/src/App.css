@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-.App {
-  text-align: center;
-=======
+
 a.button {
 	font-family: 'PT Sans', arial, serif;
 	color:#ffffff;
@@ -58,7 +55,6 @@ a.button {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
->>>>>>> 4712bd76985c1bd267f78593770b11313dfd35a0
 }
 
 .video-foreground,

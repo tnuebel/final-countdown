@@ -3,6 +3,7 @@ import Payment from "payment";
 import "./payment.css"; 
 import Modal from "../Modal"; 
 import { Row, Col, FormGroup, ControlLabel, Button, Alert } from 'react-bootstrap';
+
 export class CreditCard extends React.Component {
   constructor(props) {
     super(props);
