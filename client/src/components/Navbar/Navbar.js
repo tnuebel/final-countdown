@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css"
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'react-bootstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
