@@ -18,6 +18,7 @@ import Travelpackages from "./components/Travelpackages";
 import Travelpack1 from "./components/Travelpack1";
 import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
+import Travelpack4 from "./components/Travelpack4";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
 
@@ -28,7 +29,14 @@ class App extends Component {
       <Wrapper>
         <Navbar />
 
-        <Title />
+        <Title>
+          <br />
+          <p>The Final Countdown</p>
+          <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
+          <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
+          <br />
+        </Title>
+
 
         <Router>
           <div>
@@ -46,6 +54,7 @@ class App extends Component {
             <Route exact path="/travelpack1" component={Travelpack1} />
             <Route exact path="/travelpack2" component={Travelpack2} />
             <Route exact path="/travelpack3" component={Travelpack3} />
+            <Route exact path="/travelpack4" component={Travelpack4} />
             <Route exact path="/userhome" component={Userhome} />
             <Route exact path="/vision" component={Vision} />
           </div>
