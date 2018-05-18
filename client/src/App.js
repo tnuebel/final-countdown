@@ -26,12 +26,14 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar />
 
-        <Title />
 
         <Router>
-          <div>
+        <div>
+          <Navbar />
+
+          <Title />
+          
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />

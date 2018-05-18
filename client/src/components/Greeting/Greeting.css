@@ -1,6 +1,6 @@
 .pad1{
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 a.button {
@@ -115,6 +115,9 @@ a.button {
     margin-right: 0rem
   }
   
+  .comment{
+    font-size: .75rem;
+  }
   
   * { box-sizing: border-box; }
   .video-background {
