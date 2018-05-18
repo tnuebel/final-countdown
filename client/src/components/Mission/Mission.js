@@ -7,7 +7,7 @@ import "./Mission.css"
 
 // );
 
-class Mission extends Component {
+class Mission extends React.Component {
     render() {
         return (
             <div className="whiteTxt">
