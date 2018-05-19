@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Travelpack1.css"
 
-class App extends Component {
+class Travelpack1 extends Component {
     render() {
         return (
             <div className="whiteTxt">
@@ -50,6 +50,4 @@ class App extends Component {
     }
 }
 
-
-
-export default App; 
+export default Travelpack1; 
