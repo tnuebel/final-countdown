@@ -14,10 +14,9 @@ class Mission extends React.Component {
                 <div className="container">
                     <div className="row">
 
-                        <h1>The Final Countdown's Mission</h1>
-                        <br />
+                     <div className="col-lg-6">
 
-                        <div className="col-lg-8">
+                        <h1>The Final Countdown's Mission</h1>
 
                             <h3>Mission Statement:</h3>
 

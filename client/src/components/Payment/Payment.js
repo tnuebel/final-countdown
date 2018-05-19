@@ -2,7 +2,7 @@ import React from 'react';
 import Payment from "payment"; 
 import "./payment.css"; 
 // import Modal from "../Modal"; 
-import { Row, Col, FormGroup, ControlLabel, Button, Alert } from 'react-bootstrap';
+import { Row, Col, FormGroup, Button, Alert } from 'react-bootstrap';
 
 export class CreditCard extends React.Component {
   constructor(props) {
@@ -102,7 +102,7 @@ renderCardForm() {
           </FormGroup>
         </Col>
       </Row>
-        <Button onClick={() => alert("thank you for your payment") } type="submit" bsStyle="warning" block>Submit Payment</Button>
+        <Button onClick={() => alert("Thank you for your payment. /n Confirmation reciept has been sent to your Email")} type="submit" bsStyle="warning" block>Submit Payment</Button>
 
       </form>);
   }
