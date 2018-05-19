@@ -1,0 +1,38 @@
+.CreditCard {
+  max-width: 400px;
+  margin: auto; 
+}
+.CreditCard .credit-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+.CreditCard .credit-card-list li {
+  float: left;
+  color: #aaa;
+  font-size: 26px;
+}
+.CreditCard .credit-card-list li:not(:last-child) {
+  margin-right: 10px;
+}
+.CreditCard .credit-card-list .active {
+  color: #666;
+}
+.CreditCard .alert {
+  margin-top: 20px;
+}
+.CreditCard .alert h5 {
+  margin-top: 0px;
+}
+.CreditCard .alert .exp-cvc {
+  margin-bottom: 5px;
+}
+.CreditCard .alert .exp-cvc span:first-child {
+  margin-right: 15px;
+} 
+.modal-container {
+  position: relative;
+}
+/* .modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+} */
