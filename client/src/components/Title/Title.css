@@ -1,20 +1,34 @@
-.container-fluid {
+/* .container-fluid {
     padding: 0 !important;
+} */
+#titleBox {
+    margin-top: 100px
 }
 
-.title p {
+p {
     text-align: center;
     color: #ffffff;
     font-family: 'Sunflower', sans-serif;
     font-family: 'Prosto One', cursive;
     font-family: 'Audiowide', cursive;
+    font-size: 2rem;
 }
 
-.title p.titleStatement {
+p.titleStatement1 {
     text-align: center;
     color: #ffffff;
     font-family: 'Sunflower', sans-serif;
     font-family: 'Prosto One', cursive;
     font-family: 'Audiowide', cursive;
-    font-size: 15px;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+p.titleStatement2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Sunflower', sans-serif;
+    font-family: 'Prosto One', cursive;
+    font-family: 'Audiowide', cursive;
+    font-size: 1rem;
 }

@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import './Home.css';
-// import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-
-// import './Payment'
-// import Wrapper from "./Components/Wrapper"
 
 class Home extends Component {
     render() {

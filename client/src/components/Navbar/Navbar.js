@@ -1,46 +1,51 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
+import React from 'react';
+import "./Navbar.css"
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
-const Navbar = props => (
-  <div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h4 class="text-white">Collapsed content</h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div>
-);
+export default class Example extends React.Component {
+  constructor(props) {
+    super(props);
 
-export default Navbar;
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true
+    };
+  }
 
-// <nav className="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-{/* <!-- Brand --> */}
-{/* <a className="navbar-brand" href="/">The Final Count Down</a> */}
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+  render() {
+    return (
+      <div>
+        <Navbar className="nav fixed-top" color="faded" dark>
+          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" id="nvb1"/>
+          <NavbarBrand href="/" className="mr-auto">
+          {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/or55UctPW4w?rel=0&amp;controls=0&amp;showinfo=0&amp;start=8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
+            {/* <img src="http://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2016/04/the_many_faces_of_earth/15949902-1-eng-GB/The_many_faces_of_Earth_video_production_full.png" width="35" height="35" className="rounded-circle" /> */}
+            Final Countdown
+          </NavbarBrand>
+          <Collapse isOpen={!this.state.collapsed} navbar>
+            <Nav navbar className="navButton">
+              <NavItem>
+                <Link className="countdown-link" to="/">Home</Link>
+                <Link className="countdown-link" to="/About">About</Link>
+                <Link className="countdown-link" to="/Booking">Booking</Link>
+                <Link className="countdown-link" to="/Contact">Contact</Link>
+                <Link className="countdown-link" to="/Gallery">Gallery</Link>
+                <Link className="countdown-link" to="/Mission">Mission</Link>
+                <Link className="countdown-link" to="/Home">Sign In</Link>
+                <Link className="countdown-link" to="/Vision">Vision</Link>
+                <Link className="countdown-link" to="https://github.com/reactstrap/reactstrap">GitHub</Link>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
+}
 
-{/* <!-- Toggler/collapsibe Button --> */}
-{/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-  <span className="navbar-toggler-icon"></span>
-</button> */}
-
-{/* <!-- Navbar links --> */}
-{/* <div className="collapse navbar-collapse" id="collapsibleNavbar">
-  <ul className="navbar-nav">
-    <li className="nav-item">
-      <a className="nav-link" href="/Purpose">Purpose</a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link" href="/Mission">Mission</a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link" href="/Vis">Vision</a>
-    </li>
-  </ul>
-</div> */}
-// </nav>

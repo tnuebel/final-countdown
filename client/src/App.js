@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Wrapper from "./components/Wrapper";
 import Greeting from "./components/Greeting"
 import Navbar from "./components/Navbar";
 import Title from './components/Title';
+import Wrapper from "./components/Wrapper";
 import Home from "./components/Home"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
@@ -18,6 +18,7 @@ import Travelpackages from "./components/Travelpackages";
 import Travelpack1 from "./components/Travelpack1";
 import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
+import Travelpack4 from "./components/Travelpack4";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
 import Review from "./components/Review";
@@ -28,20 +29,24 @@ class App extends Component {
     return (
       <Wrapper>
 
-        <Navbar />
-
-        <Title>
-          <p>Final Count Down</p>
+        {/* <Title>
+          <br />
+          <p>The Final Countdown</p>
           <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
           <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
-        </Title>
+          <br />
+        </Title> */}
 
 
         <Router>
-          <div>
+        <div>
+          <Navbar />
+
+          <Title />
+          
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
-            <Route path="/Home" component={Home} />
+            <Route exact path="/Home" component={Home} />
             <Route exact path="/booking" component={Booking} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/faq" component={Faq} />
@@ -53,6 +58,7 @@ class App extends Component {
             <Route exact path="/travelpack1" component={Travelpack1} />
             <Route exact path="/travelpack2" component={Travelpack2} />
             <Route exact path="/travelpack3" component={Travelpack3} />
+            <Route exact path="/travelpack4" component={Travelpack4} />
             <Route exact path="/userhome" component={Userhome} />
             <Route exact path="/vision" component={Vision} />
             <Route exact path="/review" component={Review} />
