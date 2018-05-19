@@ -1,1 +1,1 @@
-export { default } from "./Travelpack1"
+export { default } from "./Travelpack1.js"

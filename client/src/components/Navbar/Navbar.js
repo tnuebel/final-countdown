@@ -1,44 +1,42 @@
 import React from 'react';
 import "./Navbar.css"
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, /* NavLink */ } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import Contact from "../icons/Contact-18.png"
+import Gallery from "../icons/Gallery-18.png"
+import Home from "../icons/Home-18.png"
+import SignIn from "../icons/Sign-in-18.png"
+
 
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
-
     this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.state = {
-      collapsed: true
-    };
+    this.state = { collapsed: true };
   }
 
   toggleNavbar() {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
+    this.setState({ collapsed: !this.state.collapsed });
   }
+
   render() {
     return (
       <div>
-        <Navbar className="nav" color="faded" dark>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" id="nvb1"/>
-          <NavbarBrand href="/" className="mr-auto">
-          {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/or55UctPW4w?rel=0&amp;controls=0&amp;showinfo=0&amp;start=8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
-            {/* <img src="http://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2016/04/the_many_faces_of_earth/15949902-1-eng-GB/The_many_faces_of_Earth_video_production_full.png" width="35" height="35" className="rounded-circle" /> */}
-            Final Countdown
-          </NavbarBrand>
+        <Navbar className="nav fixed-top" dark>
+          <NavbarToggler onClick={this.toggleNavbar} style={{ margin: '0rem' }} className="mr-2" id="nvb1" />
+          <NavbarBrand href="/" className="mr-auto">Final Countdown</NavbarBrand>
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar className="navButton">
               <NavItem>
-                <NavLink href="/">Home</NavLink>
-                <NavLink href="/About">About</NavLink>
-                <NavLink href="/Booking">Booking</NavLink>
-                <NavLink href="/Contact">Contact</NavLink>
-                <NavLink href="/Gallery">Gallery</NavLink>
-                <NavLink href="/Mission">Mission</NavLink>
-                <NavLink href="/Home">Sign In</NavLink>
-                <NavLink href="/Vision">Vision</NavLink>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <Link className="countdown-link general" to="/"><img src={Home} alt="home"/> Home</Link>
+                <Link className="countdown-link general" to="/Booking">Booking</Link>
+                <Link className="countdown-link general" to="/Contact"><img src={Contact} alt="contact"/> Contact</Link>
+                <Link className="countdown-link center" to="/About">Purpose</Link>
+                <Link className="countdown-link center" to="/Mission">Mission</Link>
+                <Link className="countdown-link center" to="/Vision">Vision</Link>
+                <Link className="countdown-link general" to="/Gallery"><img src={Gallery} alt="gallery"/> Gallery</Link>
+                <Link className="countdown-link general" to="/Home"><img src={SignIn} alt="sign-in"/> Sign In</Link>
+                <Link className="countdown-link general" to="https://github.com/reactstrap/reactstrap">GitHub</Link>
               </NavItem>
             </Nav>
           </Collapse>

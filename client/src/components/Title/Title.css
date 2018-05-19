@@ -1,6 +1,9 @@
 /* .container-fluid {
     padding: 0 !important;
 } */
+#titleBox {
+    margin-top: 100px
+}
 
 p {
     text-align: center;
