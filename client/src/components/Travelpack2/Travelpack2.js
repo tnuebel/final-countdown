@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Travelpack2.css"
+import { Link } from "react-router-dom";
 
 
 class Travelpack2 extends Component {
@@ -37,8 +38,9 @@ class Travelpack2 extends Component {
                             <p>Space ship <strong>"Kiss My Grits"</strong> is lofted to 50,000 feet, then released by a carrier aircraft.  After separation, DDDDD fires its rocket engine for 70 seconds, accelerating to 2,500mph, then the rockets are shut down and the craft continues to climb past 328,000 feet where passengers are considered astronauts.  The craft reaches its highest altitude at 361,000 feet where the clients experience five minutes of weightlessness.  The aircraft then re-enters the Earth’s atmosphere and finally performs a conventional landing on a runway.</p>
                             <br />
 
-                            <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
-
+<Link to="../Payment">
+                                <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
+                            </Link>
                             <br />
 
                         </div>
