@@ -17,7 +17,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="nav fixed-top" color="faded" dark>
+        <Navbar className="nav fixed-top" dark>
           <NavbarToggler onClick={this.toggleNavbar} style={{ margin: '0rem' }} className="mr-2" id="nvb1" />
           <NavbarBrand href="/" className="mr-auto">
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/or55UctPW4w?rel=0&amp;controls=0&amp;showinfo=0&amp;start=8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
