@@ -13,7 +13,7 @@ class App extends Component {
 
                         <div className="col-lg-8 offset-lg-2">
 
-                        <h2 className="h1">Platinum Package: Lunar Land Grab</h2>
+                        <h2 className="h1">Platinum Package: Lunar Slumlord</h2>
                         <br />
 
                             <p>Our Platinum Package offers a truly out of this world experience:  A two-night stay at the International Space Station before our next stop to the moon.  And what trip to the moon would be complete without a moon-walk?!  Yes, that’s right!  Not only will our clients take a trip to the moon and back, but they will also get to leave behind their lunar footprints!  Also included in the Platinum package is your deed to one acre of the Lunar landscape, as well as your own star. </p>
