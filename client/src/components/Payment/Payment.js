@@ -1,7 +1,7 @@
 import React from 'react';
 import Payment from "payment"; 
 import "./payment.css"; 
-import Modal from "../Modal"; 
+// import Modal from "../Modal"; 
 import { Row, Col, FormGroup, ControlLabel, Button, Alert } from 'react-bootstrap';
 
 export class CreditCard extends React.Component {
@@ -133,7 +133,7 @@ renderCardForm() {
       { this.renderCardList() }
       { this.renderCardForm() }
       { this.renderCard() }
-      <Modal show={this.state.smShow} onHide={smClose} />
+      {/* <Modal show={this.state.smShow} onHide={smClose} /> */}
     </div>);
   }
 }

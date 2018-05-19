@@ -17,7 +17,7 @@ class Mission extends React.Component {
                         <h1>The Final Countdown's Mission</h1>
                         <br />
 
-                        <div class="col-lg-8">
+                        <div className="col-lg-8">
 
                             <h3>Mission Statement:</h3>
 
