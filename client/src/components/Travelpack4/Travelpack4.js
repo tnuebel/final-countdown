@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Travelpack4.css"
+import { Link } from "react-router-dom";
 
 
 class App extends Component {
@@ -39,8 +40,9 @@ class App extends Component {
                             <p>For this extended trip to the moon and back, each client must first complete one month of astronaut training, then, after completion, our clients will be launched into space in a capsule aboard SpaceX’s rocket, just like in the Apollo days.  After a successful launch, their first stop will be a three day visit to the International Space Station and then off to the final destination, the moon.  They will land on the moon and have the opportunity to actually walk/tour on the moon where they will get to visit the lunar real estate they just purchased.  After two days on the moon and a full week of taking in all that space has to offer, they will re-enter the Earth’s atmosphere after experiencing truly the vacation of a lifetime!</p>
                             <br />
 
-                              <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
-
+                          <Link to="../Payment">
+                                <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
+                            </Link>
                             <br />
 
 
