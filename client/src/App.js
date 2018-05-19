@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Title from './components/Title';
 import Wrapper from "./components/Wrapper";
 import Home from "./components/Home"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, /* Link */ } from "react-router-dom";
 import './App.css';
 import About from "./components/About";
 import Booking from "./components/Booking";
@@ -27,20 +27,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-
-        {/* <Title>
-          <br />
-          <p>The Final Countdown</p>
-          <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
-          <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
-          <br />
-        </Title> */}
-
-
         <Router>
         <div>
           <Navbar />
-
           <Title />
           
             <Route exact path="/" component={Greeting} />
@@ -63,7 +52,6 @@ class App extends Component {
           </div>
         </Router>
       </Wrapper>
-
     );
   }
 }
