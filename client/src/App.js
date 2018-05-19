@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Title from './components/Title';
 import Wrapper from "./components/Wrapper";
 import Home from "./components/Home"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, /* Link */ } from "react-router-dom";
 import './App.css';
 import About from "./components/About";
 import Booking from "./components/Booking";
@@ -27,22 +27,11 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-
-        {/* <Title>
-          <br />
-          <p>The Final Countdown</p>
-          <p className="titleStatement">TOGETHER WE EXPLORE SPACE TO</p>
-          <p className="titleStatement">CHANGE THE WORLD FOR THE BETTER</p>
-          <br />
-        </Title> */}
-
-
         <Router>
-        <div>
-          <Navbar />
+          <div>
+            <Navbar />
+            <Title />
 
-          <Title />
-          
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />
@@ -62,8 +51,15 @@ class App extends Component {
             <Route exact path="/vision" component={Vision} />
           </div>
         </Router>
+        <footer>
+          <div className="row ftr1">
+            <div className="col"><img width="25" height="25" alt="twitter" src="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png" /></div>
+            <div className="col"><img width="25" height="25" alt="facebook" src="https://www.iconsdb.com/icons/preview/white/facebook-xxl.png" /></div>
+            <div className="col"><img width="25" height="25" alt="instagram" src="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png" /></div>
+            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/youtube-xxl.png" /></div>
+          </div>
+        </footer>
       </Wrapper>
-
     );
   }
 }
