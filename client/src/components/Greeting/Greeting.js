@@ -39,7 +39,7 @@ const Greeting = props => (
             </div>
 
             <div className="row row-three">
-                <div className="col"><a href="/Who We Are" className="button outerButtonLetf">Who We Are</a></div>
+                <div className="col"><a href="/About" className="button outerButtonLetf">Who We Are</a></div>
                 <div className="col-2"><a href="/Vision" className="button centerButton"><span>Vision</span><br /><span className="comment">WHERE WE ARE HEADING</span></a></div>
                 <div className="col"><a href="/Research Flights" className="button outerButtonRight">Research Flights</a></div>
             </div>

@@ -2,11 +2,11 @@
     font-family: 'Sunflower', sans-serif;
     font-family: 'Prosto One', cursive;
     font-family: 'Audiowide', cursive;
-    background: rgba(0,0,0,0.5);
     margin-bottom: 0rem;
 }
 
 li.nav-item {
+    background: rgba(0,0,0,0.75);
     padding: 2rem;
 }
 
