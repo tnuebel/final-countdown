@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import './Review.css';
-// import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-
-// import './Payment'
-// import Wrapper from "./Components/Wrapper"
-
 class Review extends Component {
     render() {
         return (
@@ -23,7 +18,7 @@ class Review extends Component {
                             <div className="card">
                                 <h2>Better than marriage</h2>
                                 <img src="https://i.ytimg.com/vi/Bck2kAaGRWU/maxresdefault.jpg" alt="Space" />
-                                <h3>I was going to fund my daughters wedding in Hawaii but I figured the memories from this trip would last longer than than marriage</h3>
+                                <h3>I was going to fund my daughters wedding in Hawaii but I figured the memories from this trip would last longer than than her marriage</h3>
                                 <p className="title">Ron - Dallas TX</p>
                             </div>
                         </div>
