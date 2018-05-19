@@ -7,7 +7,7 @@
 
 li.nav-item {
     background: rgba(0,0,0,0.75);
-    padding: 2rem;
+    padding: 3rem;
 }
 
 #nvb1 {
@@ -23,7 +23,7 @@ li.nav-item {
 .general {
     text-align:center;
     padding:10px;
-    height: 70%;
+    height: auto;
     width: 8%;
     /* position:relative/absolute; */
     /* left:50%; */

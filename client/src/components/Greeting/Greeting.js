@@ -43,6 +43,7 @@ const Greeting = props => (
                 <div className="col-2"><a href="/Vision" className="button centerButton"><span>Vision</span><br /><span className="comment">WHERE WE ARE HEADING</span></a></div>
                 <div className="col"><a href="/Research Flights" className="button outerButtonRight">Research Flights</a></div>
             </div>
+
         </div>
     </div>
 
