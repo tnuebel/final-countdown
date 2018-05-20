@@ -8,6 +8,7 @@ import Home from "../icons/Home-18.png"
 import SignIn from "../icons/Sign-in-18.png"
 
 
+
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
@@ -36,7 +37,8 @@ export default class Example extends React.Component {
                 <Link className="countdown-link center" to="/Vision">Vision</Link>
                 <Link className="countdown-link general" to="/Gallery"><img src={Gallery} alt="gallery"/> Gallery</Link>
                 <Link className="countdown-link general" to="/Home"><img src={SignIn} alt="sign-in"/> Sign In</Link>
-                <Link className="countdown-link general" to="https://github.com/reactstrap/reactstrap">GitHub</Link>
+                <Link className="countdown-link general" to="https://github.com/reactstrap/reactstrap">
+                <img width="20" height="20" alt="github" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png"/> GitHub</Link>
               </NavItem>
             </Nav>
           </Collapse>
