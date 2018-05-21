@@ -30,13 +30,13 @@ export class CreditCard extends React.Component {
     event.preventDefault();
     this.resetCard();
 
-    const { refs } = this;
-    const number = refs.number.value;
-    const expiration = refs.expiration.value.split('/');
-    const exp_month = parseInt(expiration[0], 10);
-    const exp_year = parseInt(expiration[1], 10);
-    const cvc = refs.cvc.value;
-    const card = { number, exp_month, exp_year, cvc };
+    // const { refs } = this;
+    // const number = refs.number.value;
+    // const expiration = refs.expiration.value.split('/');
+    // const exp_month = parseInt(expiration[0], 10);
+    // const exp_year = parseInt(expiration[1], 10);
+    // const cvc = refs.cvc.value;
+    // const card = { number, exp_month, exp_year, cvc };
   }
 
 
@@ -128,7 +128,7 @@ renderCardForm() {
   }
 
   render() {
-    let smClose = () => this.setState({ smShow: false });
+    // let smClose = () => this.setState({ smShow: false });
     return (<div className="CreditCard">
       { this.renderCardList() }
       { this.renderCardForm() }

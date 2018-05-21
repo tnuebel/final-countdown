@@ -1,3 +1,4 @@
+
 .nav {
     font-family: 'Sunflower', sans-serif;
     font-family: 'Prosto One', cursive;
@@ -5,8 +6,12 @@
     margin-bottom: 0rem;
 }
 
-li.nav-item {
+.expanded {
     background: rgba(0,0,0,0.75);
+}
+
+li.nav-item {
+    /* background: rgba(0,0,0,0.75); */
     padding: 3rem;
 }
 

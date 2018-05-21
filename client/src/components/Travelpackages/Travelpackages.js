@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import "./Travelpackages.css";
-// import slides from "../Travelpackages../components../images./slides";
-
-
+import {  Link } from "react-router-dom";
+import "./Travelpackages.css"
 
 
 class Travelpackages extends Component {
