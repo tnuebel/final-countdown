@@ -3,7 +3,7 @@ import "./Travelpack4.css"
 import { Link } from "react-router-dom";
 
 
-class App extends Component {
+class Travelpack4 extends Component {
     render() {
         return (
             <div className="whiteTxt">
@@ -12,6 +12,7 @@ class App extends Component {
 
 
                         <div className="col-lg-8 offset-lg-2">
+                        <br />
 
                         <h2 className="h1">Platinum Package: Lunar Slumlord</h2>
                         <br />
@@ -56,4 +57,4 @@ class App extends Component {
     }
 }
 
-export default App; 
+export default Travelpack4; 
