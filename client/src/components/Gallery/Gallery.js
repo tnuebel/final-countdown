@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 import "./Gallery.css"
+// import { url } from 'inspector';
 
 const styles = {
     fontFamily: 'sans-serif',
@@ -15,11 +16,12 @@ const insideStyles = {
     transform: 'translate(-50%,-50%)'
 };
 
-const image1 = "http://www.whatitcosts.com/wp-content/uploads/2016/04/space-travel-astronaut.jpg";
-const image2 = "http://spacefeelings.com/images/space-pictures-first-days-exploration-feelings-1.jpg";
+const image1 = "https://media.wired.com/photos/59ce53a8f9ee8f40795b110e/master/pass/GettyImages-855377428.jpg";
+const image2 = "https://socialunderground.com/wp-content/uploads/2016/06/JUPITER_proccessed_image.jpg";
 const image3 = "https://everydayscience.blog/wp-content/uploads/2018/03/thumb-1920-721612-min-1024x768.jpg";
-const image4 = "https://robbreportedit.files.wordpress.com/2018/04/captive_carry_vc01.jpg?w=1000";
-const image5 = "../../images/spacex-falcon-heavy-11-1068x601.jpg";
+const image4 = "https://image.shutterstock.com/image-photo/two-astronauts-space-suits-confidently-260nw-1049625908.jpg";
+const image5 = "https://wallscover.com/images/spaceport-wallpaper-3.jpg";
+
 
 class Gallery extends Component {
     render() {
@@ -32,7 +34,7 @@ class Gallery extends Component {
                 <Parallax bgImage={image1}
                     strength={500}>
                     <div style={{ height: 500 }}>
-                        <div style={insideStyles}>HTML inside the parallax</div>
+                        {/* <div style={insideStyles}>HTML inside the parallax</div> */}
                     </div>
                 </Parallax>
 
@@ -40,7 +42,7 @@ class Gallery extends Component {
 
                 <Parallax bgImage={image3} blur={{ min: -1, max: 3 }}>
                     <div style={{ height: 500 }}>
-                        <div style={insideStyles}>Dynamic Blur</div>
+                        {/* <div style={insideStyles}>Dynamic Blur</div> */}
                     </div>
                 </Parallax>
 
@@ -48,7 +50,7 @@ class Gallery extends Component {
 
                 <Parallax bgImage={image2} strength={-100}>
                     <div style={{ height: 500 }}>
-                        <div style={insideStyles}>Reverse direction</div>
+                        {/* <div style={insideStyles}>Reverse direction</div> */}
                     </div>
                 </Parallax>
 
@@ -57,16 +59,16 @@ class Gallery extends Component {
                 <Parallax bgImage={image4}
                     strength={500}>
                     <div style={{ height: 500 }}>
-                        <div style={insideStyles}>HTML inside the parallax</div>
+                        {/* <div style={insideStyles}>HTML inside the parallax</div> */}
                     </div>
                 </Parallax>
 
                 <h1>| | |</h1>
 
                 <Parallax bgImage={image5}
-                    strength={500}>
+                    strength={750}>
                     <div style={{ height: 500 }}>
-                        <div style={insideStyles}>HTML inside the parallax</div>
+                        {/* <div style={insideStyles}>HTML inside the parallax</div> */}
                     </div>
                 </Parallax>
 

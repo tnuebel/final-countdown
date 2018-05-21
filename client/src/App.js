@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Greeting from "./components/Greeting"
+import Greeting from "./components/Greeting";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
-import Home from "./components/Home"
+import Home from "./components/Home";
 import { BrowserRouter as Router, Route, /* Link */ } from "react-router-dom";
 import './App.css';
 import About from "./components/About";

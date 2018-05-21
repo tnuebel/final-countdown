@@ -20,7 +20,8 @@ const styles = {
 const image1 = "http://www.whatitcosts.com/wp-content/uploads/2016/04/space-travel-astronaut.jpg";
 const image2 = "http://www.spaceflightinsider.com/wp-content/uploads/2016/02/5264-spaceshiptwo-matthew_kuhns.jpg";
 const image3 = "https://everydayscience.blog/wp-content/uploads/2018/03/thumb-1920-721612-min-1024x768.jpg";
-const image4 = "https://d3lxyuz9vix4su.cloudfront.net/assets/77449bfe-016e-11e8-8ed1-f3f91814dfde_video_1280w.jpg?v=5";
+// const image4 = "https://d3lxyuz9vix4su.cloudfront.net/assets/77449bfe-016e-11e8-8ed1-f3f91814dfde_video_1280w.jpg?v=5";
+const image4 = "http://www.laterredufutur.com/accueil/wp-content/uploads/2016/11/iss-interieur-station-spatiale-internationale.jpg"
 
 
 class Vision extends Component {
@@ -87,6 +88,13 @@ class Vision extends Component {
                         <div style={{ height: 500 }}>
                         </div>
                     </Parallax>
+
+                    {/* <Parallax strength={-200}>
+                        <div style={{ height: 500 }}>
+                        bgImage={require('../../../../images/slides/anti-g1.jpg')}
+                        </div>
+                    </Parallax> */}
+
 
                     <div style={{ height: 500 }}></div>
 
