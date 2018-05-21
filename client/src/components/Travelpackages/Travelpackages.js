@@ -1,82 +1,116 @@
 import React, { Component } from 'react';
-import { /* Link */} from "react-router-dom";
+import {  Link } from "react-router-dom";
 import "./Travelpackages.css"
 
 
 class Travelpackages extends Component {
     render() {
         return (
-            <div className="whiteTxt col-lg-8 offset-lg-2">
-                <h1>h1 Text Size</h1>
-                <h2>h2 Text Size</h2>
-                <h3>h3 Text Size</h3>
-                <h4>h4 Text Size</h4>
-                <h5>h5 Text Size</h5>
-                <h6>h6 Text Size</h6>
-                <p>p Text Size</p>
+            <div>
+                <div className="whiteTxt">
+                    <div className="container">
+                        <div className="row">
 
-                <h1>Travel Packages</h1>
-                <h3>We have several otions to choose from.</h3>
+                            <div class="col-lg-8 offset-lg-2">
 
-                <Link to="../Travelpack1">
-                    <button type="button" class="btn btn-dark">Bronze</button>
-                </Link>
-                <Link to="../Travelpack2">
-                    <button type="button" class="btn btn-dark">Silver</button>
-                </Link>
-                <Link to="../Travelpack3">
-                    <button type="button" class="btn btn-dark">Gold</button>
-                </Link>
-                <Link to="../Travelpack4">
-                    <button type="button" class="btn btn-dark">Platinum</button>
-                </Link>
+                                <br />
+                                <h1>The Final Countdown's Travel Packages</h1>
+                                <br />
+                                <h3>Today's Popular Destinations</h3>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
 
                 <div className="container">
                     <div className="row">
+                        <div className="col-sm">
+                            <div className="card">
+                                <h2>FINAL COUNTDOWN</h2>
+                                <img src="https://fsmedia.imgix.net/fd/c7/a5/98/d61f/4184/a8e3/df675a625458/spoooooooky.jpeg" alt="Space" />
+                                <h1>Space Package 1</h1>
+                                <p className="title">Anti-Gravity Express</p>
+                                <div>
+                                </div>
+                                <Link to="../Travelpack1">
+                                    <button type="button" class="btn btn-dark">Bronze</button>
+                                </Link>
+                            </div>
+                        </div>
 
 
-                        <div className="col-lg-8 offset-lg-2">
 
-                            <h2 className="h1">Platinum Package: Lunar Slumlord</h2>
-                            <br />
-
-                            <p>Our Platinum Package offers a truly out of this world experience:  A two-night stay at the International Space Station before our next stop to the moon.  And what trip to the moon would be complete without a moon-walk?!  Yes, that’s right!  Not only will our clients take a trip to the moon and back, but they will also get to leave behind their lunar footprints!  Also included in the Platinum package is your deed to one acre of the Lunar landscape, as well as your own star. </p>
-                            <br />
-
-                            <h3>Package Inclusions:</h3>
-
-                            <li>8 day travel package to the moon and back.</li>
-                            <li>2  nights’ stay at the International Space Station.</li>
-                            <li>2 nights’ stay in a lunar-pod on the moon.</li>
-                            <li>1 month of astronaut training.</li>
-                            <li>Digital memorabilia package (movies, pictures).</li>
-                            <li>Pre/post launch transportation to and from launch location.</li>
-                            <li>Post re-entry celebration.</li>
-
-                            <br />
-
-                            <p>Cost: $15,000,000.00/person.</p>
-
-                            <br />
-
-                            <h3>How it works:</h3>
-
-                            <p>For this extended trip to the moon and back, each client must first complete one month of astronaut training, then, after completion, our clients will be launched into space in a capsule aboard SpaceX’s rocket, just like in the Apollo days.  After a successful launch, their first stop will be a three day visit to the International Space Station and then off to the final destination, the moon.  They will land on the moon and have the opportunity to actually walk/tour on the moon where they will get to visit the lunar real estate they just purchased.  After two days on the moon and a full week of taking in all that space has to offer, they will re-enter the Earth’s atmosphere after experiencing truly the vacation of a lifetime!</p>
-                            <br />
-
-                            <Link to="../Payment">
-                                <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
-                            </Link>
-                            <br />
+                        <div className="col-sm">
+                            <div className="card">
+                                <h2>FINAL COUNTDOWN</h2>
+                                <img src="https://www.vasc.org/wp-content/themes/meridian/video/video-bg.jpg" alt="Space" />
+                                <h1>Space Package 2</h1>
+                                <p className="title">Escape From Earth</p>
+                                <Link to="../Travelpack2">
+                                    <button type="button" class="btn btn-dark">Silver</button>
+                                </Link>
+                            </div>
+                        </div>
 
 
+                        <div className="col-sm">
+                            <div className="card">
+                                <h2>FINAL COUNTDOWN</h2>
+                                <img src="https://i.ytimg.com/vi/OUypbkhTXaA/maxresdefault.jpg" alt="Space" />
+                                <h1>Space Package 3</h1>
+                                <p className="title">Fly Me To The Moon!</p>
+                                <Link to="../Travelpack3">
+                                    <button type="button" class="btn btn-dark">Gold</button>
+                                </Link>
+                            </div>
+                        </div>
+
+
+                        <div className="col-sm">
+                            <div className="card">
+                                <h2>FINAL COUNTDOWN</h2>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo193kVsvn_oc0HkcSY5OmRM7_8DwQvoHnVHaNDmtqr8WiJ49Zlw" alt="Space" />
+                                <h1>Space Package 4</h1>
+                                <p className="title">Lunar Slum Lord</p>
+                                <Link to="../Travelpack4">
+                                    <button type="button" class="btn btn-dark">Platinum</button>
+                                </Link>
+
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
         )
     }
+
+
 }
+
+
+{/* <Link to="../Travelpack1">
+                <button type="button" class="btn btn-dark">Bronze</button>
+                    </Link>
+                    <Link to="../Travelpack2">
+                <button type="button" class="btn btn-dark">Silver</button>
+                    </Link>
+                    <Link to="../Travelpack3">
+                <button type="button" class="btn btn-dark">Gold</button>
+                    </Link>
+                    <Link to="../Travelpack4">
+                <button type="button" class="btn btn-dark">Platinum</button>
+                    </Link> */}
+
+
+
+
+
+
+
 
 export default Travelpackages; 
