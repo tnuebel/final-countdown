@@ -25,6 +25,7 @@ class Gallery extends Component {
     render() {
         return (
             <div style={styles}>
+                <div className='tbl'>Gallery</div>
 
                 {/* <Hello name="Parallax" /> */}
 

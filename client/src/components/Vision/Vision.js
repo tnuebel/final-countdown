@@ -22,6 +22,7 @@ const image2 = "http://www.spaceflightinsider.com/wp-content/uploads/2016/02/526
 const image3 = "https://everydayscience.blog/wp-content/uploads/2018/03/thumb-1920-721612-min-1024x768.jpg";
 const image4 = "https://d3lxyuz9vix4su.cloudfront.net/assets/77449bfe-016e-11e8-8ed1-f3f91814dfde_video_1280w.jpg?v=5";
 
+
 class Vision extends Component {
     constructor(props) {
         super(props);
@@ -34,8 +35,14 @@ class Vision extends Component {
     render() {
         return (
             <div className='containerVision'>
-            
-            <div className='tbl'>Vision</div>
+
+                <div className='tbl'>Vision</div>
+                <div className="video-background">
+                    <div className="video-foreground">
+                        <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=W0LHTWG-UmQ" title="ISS Timelapse" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                    </div>
+                </div>
+
 
                 <div style={styles}>
 
@@ -72,10 +79,12 @@ class Vision extends Component {
                         <p className='pb3'>Our first commercial spaceflights will be of an unprecedented frequency, generating the benefits of rapid learning and improvement. </p>
                         <p className='pb3'>By repeatedly demonstrating high levels of safety, unparalleled customer experience and commercial viability, we will create the conditions for more private sector investment, leading to rapid innovation and expansion. </p>
                         <p className='pb3'>The resulting economies of scale and competing technologies will lead to further downward pressure on the cost of launch – enabling an ever-increasing number of users with diverse, world-changing applications.</p>
+                        <p className='signature'>"New space technologies developed by private companies will bring about fundamental change that will influence business and our personal lives."</p>
+                        <p className='signature1'>- Don Woodside CEO The Final Countdown</p>
+
                     </div>
                     <Parallax bgImage={image4} strength={-200}>
                         <div style={{ height: 500 }}>
-                            {/* <div style={insideStyles}>Reverse direction</div> */}
                         </div>
                     </Parallax>
 
