@@ -39,7 +39,7 @@ class Home extends Component {
                                 <h2>FINAL COUNTDOWN</h2>
                                 <img src="https://www.vasc.org/wp-content/themes/meridian/video/video-bg.jpg" alt="Space" />
                                 <h1>Space Package 2</h1>
-                                <p className="title">Atmosphere Exit A</p>
+                                <p className="title">Escape From Earth</p>
                                 <Link to="../Travelpack2">
                                     <button type="button" class="btn btn-dark">Silver</button>
                                 </Link>
@@ -52,7 +52,7 @@ class Home extends Component {
                                 <h2>FINAL COUNTDOWN</h2>
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8A8QZHGjk_u5VgyMOBinRGdp1CCJ4YFvsC17qCt6KEdjsl2PVIw" alt="Space" />
                                 <h1>Space Package 3</h1>
-                                <p className="title">Atmosphere Exit B</p>
+                                <p className="title">Fly Me To The Moon</p>
                                 <Link to="../Travelpack3">
                                     <button type="button" class="btn btn-dark">Gold</button>
                                 </Link>

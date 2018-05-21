@@ -5,14 +5,17 @@
     margin-top: 100px
 }
 
+
 p {
     text-align: center;
     color: #ffffff;
-    font-family: 'Sunflower', sans-serif;
+    /* font-family: 'Sunflower', sans-serif;
     font-family: 'Prosto One', cursive;
-    font-family: 'Audiowide', cursive;
-    font-size: 2rem;
+    font-family: 'Audiowide', cursive; */
+    font-size: 20px;
 }
+
+
 
 p.titleStatement1 {
     text-align: center;
