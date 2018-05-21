@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import AuthService from './AuthService';
 import { Link } from 'react-router-dom';
+import YouTube from 'react-youtube';
+
 
 // {/* <script async src="https://www.youtube.com/iframe_api"></script> */}
 // var script = document.createElement('script');
@@ -72,9 +74,23 @@ class Signup extends Component {
   }
 
   render() {
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 1,
+        start: 17,
+        end: 19   
+      }
+    };
     return (
       <div className="container">
-        <div id="myvideo"></div>
+         <YouTube
+          videoId="95a2KnIWswk"
+          opts={opts}
+          onReady={this._onReady}
+          onStateChange={this._onStateChange}
+        />
 
         <h1>Signup</h1>
         <form onSubmit={this.handleFormSubmit}>
@@ -130,6 +146,16 @@ class Signup extends Component {
         [e.target.name]: e.target.value
       }
     )
+  }
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    // event.target.pauseVideo();
+  }
+  _onStateChange(event) {
+    console.log(event);
+    if(event.data === 0) {
+      alert("Video stopped");
+    }
   }
 }
 
