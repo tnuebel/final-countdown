@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Greeting from "./components/Greeting"
+import Greeting from "./components/Greeting";
 import Navbar from "./components/Navbar";
-import Title from './components/Title';
 import Wrapper from "./components/Wrapper";
-import Home from "./components/Home"
+import Home from "./components/Home";
 import { BrowserRouter as Router, Route, /* Link */ } from "react-router-dom";
 import './App.css';
 import About from "./components/About";
@@ -14,7 +13,7 @@ import Gallery from "./components/Gallery";
 import Gallery1 from "./components/Gallery1";
 import Launchdates from "./components/Launchdates";
 import Mission from "./components/Mission";
-import Payment from "./components/Payment"; 
+import Payment from "./components/Payment";
 import Review from "./components/Review";
 import Travelpackages from "./components/Travelpackages";
 import Travelpack1 from "./components/Travelpack1";
@@ -34,9 +33,9 @@ const Auth = new AuthService();
 
 
 
-if(localStorage.getItem("id_token")) {
-    axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('id_token')}`;
-  }
+if (localStorage.getItem("id_token")) {
+  axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('id_token')}`;
+}
 
 class App extends Component {
   render() {
@@ -45,7 +44,6 @@ class App extends Component {
         <Router>
           <div>
             <Navbar />
-            <Title />
 
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
@@ -77,6 +75,7 @@ class App extends Component {
             <div className="col"><img width="25" height="25" alt="facebook" src="https://www.iconsdb.com/icons/preview/white/facebook-xxl.png" /></div>
             <div className="col"><img width="25" height="25" alt="instagram" src="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png" /></div>
             <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/youtube-xxl.png" /></div>
+            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /></div>
           </div>
         </footer>
       </Wrapper>
