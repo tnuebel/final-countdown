@@ -15,7 +15,7 @@ class Travelpack3 extends Component {
                         <h2 className="h1">Gold Package: Fly Me To The Moon!</h2>
                         <br />
 
-                            <p>Our Gold package was designed with every person’s childhood dream in mind: A journey to the moon (and back) and a visit to the International Space Station. This is the real deal with real training, real space suits and real spaceships.  For those who dare to dream, who live for adventure, and who has the financial means for the experience of a lifetime, THIS IS FOR YOU!.</p>
+                            <p>Our Gold package was designed with every person’s childhood dream in mind: A journey to the moon (and back), including a visit to the International Space Station. This is the real deal with real training, real space suits and real spaceships.  For those who dare to dream, who live for adventure, and who has the financial means for the experience of a lifetime, THIS IS FOR YOU!.</p>
                             <br />
 
                             <h3>Package Inclusions:</h3>
