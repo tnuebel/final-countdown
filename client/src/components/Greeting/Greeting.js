@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Gallery from "../icons/Gallery-36.png"
-import Join from "../icons/Join-36.png"
-import News from "../icons/News-36.png"
-import See from "../icons/See-36.png"
-import SignIn from "../icons/Sign-in-36.png"
-import Watch from "../icons/Watch-36.png"
+import Title from "../Title";
+import Gallery from "../icons/Gallery-36.png";
+import Join from "../icons/Join-36.png";
+import News from "../icons/News-36.png";
+import See from "../icons/See-36.png";
+import SignIn from "../icons/Sign-in-36.png";
+import Watch from "../icons/Watch-36.png";
 import "./Greeting.css";
 
 const Greeting = props => (
     <div>
+    <Title />
+
         <div className="video-background">
             <div className="video-foreground">
                 {/* <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=W0LHTWG-UmQ" title="ISS Timelapse" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe> */}
@@ -27,7 +30,7 @@ const Greeting = props => (
             </div>
 
             <div className="row row-two">
-                <div className="col"><a href="Button" className="button">
+                <div className="col"><a href="Gallery" className="button">
                     <img src={Gallery} alt="gallery"/><br />Gallery</a></div>
                 <div className="col"><a href="Button" className="button">
                     <img src={SignIn} alt="sign"/><br />Sign In</a></div>
