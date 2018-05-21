@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Greeting from "./components/Greeting"
+import Greeting from "./components/Greeting";
 import Navbar from "./components/Navbar";
 import Title from './components/Title';
 import Wrapper from "./components/Wrapper";
@@ -51,6 +51,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />
             <Route exact path="/booking" component={Booking} />
+            <Route exact path="/Greeting" component={Greeting} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/faq" component={Faq} />
             <Route exact path="/gallery" component={Gallery} />
