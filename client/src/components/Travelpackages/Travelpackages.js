@@ -14,7 +14,9 @@ class Travelpackages extends Component {
                             <div class="col-lg-8 offset-lg-2">
 
                                 <br />
-                                <h1>The Final Countdown's Travel Packages</h1>
+                                <br />
+
+                                <h1>The Final Countdown Travel Packages</h1>
                                 <br />
                                 <h3>Today's Popular Destinations</h3>
                                 <br />

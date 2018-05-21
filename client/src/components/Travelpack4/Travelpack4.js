@@ -12,6 +12,7 @@ class Travelpack4 extends Component {
 
 
                         <div className="col-lg-8 offset-lg-2">
+                        <br />
 
                         <h2 className="h1">Platinum Package: Lunar Slumlord</h2>
                         <br />
