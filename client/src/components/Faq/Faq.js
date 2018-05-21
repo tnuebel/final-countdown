@@ -21,7 +21,7 @@ class Faq extends Component {
                 <p>A- you don’t, please refer to Donald Trumps review.</p>
 
                 <p>What do I do in the event of a crash?</p>
-                <p>A- Not sure, might get a middle school named after you.</p>
+                <p>A- Brace, pray.. might get a middle school named after you.</p>
 
             </div>
 

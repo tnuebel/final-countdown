@@ -26,7 +26,7 @@ class Review extends Component {
                             <div className="card">
                                 <h2>Upchuck</h2>
                                 <img src="https://i.ytimg.com/vi/6JoawAJwVYg/maxresdefault.jpg" alt="Space" />
-                                <h3>Vomit commit lived up to its name.. BARFED everywhere!!! AWESOME!!!</h3>
+                                <h3>Vomit comet lived up to its name.. BARFED everywhere!!! AWESOME!!!</h3>
                                 <p className="title">Steve - San Diego CA</p>
                             </div>
                         </div>
