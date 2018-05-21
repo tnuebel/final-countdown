@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Greeting from "./components/Greeting"
+import Greeting from "./components/Greeting";
 import Navbar from "./components/Navbar";
-import Title from './components/Title';
 import Wrapper from "./components/Wrapper";
-import Home from "./components/Home"
+import Home from "./components/Home";
 import { BrowserRouter as Router, Route, /* Link */ } from "react-router-dom";
 import './App.css';
 import About from "./components/About";
@@ -14,7 +13,7 @@ import Gallery from "./components/Gallery";
 import Gallery1 from "./components/Gallery1";
 import Launchdates from "./components/Launchdates";
 import Mission from "./components/Mission";
-import Payment from "./components/Payment"; 
+import Payment from "./components/Payment";
 import Review from "./components/Review";
 import Travelpackages from "./components/Travelpackages";
 import Travelpack1 from "./components/Travelpack1";
@@ -23,7 +22,20 @@ import Travelpack3 from "./components/Travelpack3";
 import Travelpack4 from "./components/Travelpack4";
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
-// import Wrapper from "./Components/Wrapper"
+import Login from './components/Login';
+import Profile from './components/Profile';
+import Signup from './components/Signup';
+import AuthService from './components/AuthService';
+import withAuth from './components/withAuth';
+import axios from "axios";
+
+const Auth = new AuthService();
+
+
+
+if (localStorage.getItem("id_token")) {
+  axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('id_token')}`;
+}
 
 class App extends Component {
   render() {
@@ -32,7 +44,6 @@ class App extends Component {
         <Router>
           <div>
             <Navbar />
-            <Title />
 
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
@@ -53,6 +64,9 @@ class App extends Component {
             <Route exact path="/travelpack4" component={Travelpack4} />
             <Route exact path="/userhome" component={Userhome} />
             <Route exact path="/vision" component={Vision} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/signup" component={Signup} />
+            <Route exact path="/profile/:id" component={Profile} />
           </div>
         </Router>
         <footer>
@@ -61,6 +75,7 @@ class App extends Component {
             <div className="col"><img width="25" height="25" alt="facebook" src="https://www.iconsdb.com/icons/preview/white/facebook-xxl.png" /></div>
             <div className="col"><img width="25" height="25" alt="instagram" src="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png" /></div>
             <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/youtube-xxl.png" /></div>
+            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /></div>
           </div>
         </footer>
       </Wrapper>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./Travelpack1.css"
+import { Link } from "react-router-dom";
+
 
 class Travelpack1 extends Component {
     render() {
@@ -36,7 +38,10 @@ class Travelpack1 extends Component {
                             <p>Before starting a parabola in a redesigned commercial aircraft Airbus A350, the pilots fly level to the horizon at an altitude of 24,000 feet. Then, the pilots begin to pull up, climbing to 34,000 feet gradually increasing the angle of the aircraft to about 45°. During this pull-up, passengers will experience G-force of nearly 2 (astronauts experiene 3 G's during a shuttle launch). Next the plane is “pushed over” to create the zero gravity segment of the parabola. For the next 20-30 seconds everything in the plane is weightless. Next a gentle pull-out is started which allows the flyers to stabilize on the aircraft floor. This maneuver is repeated 12-15 times, each taking about ten miles of airspace to perform.</p>
                             <br />
 
-                            <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
+
+                            <Link to="../Payment">
+                                <button type="button" class="btn btn-secondary btn-lg btn-block">Chase Your Dreams Here</button>
+                            </Link>
 
                             <br />
 
