@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Signup.css';
 import AuthService from './AuthService';
 import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
@@ -34,9 +35,8 @@ class Signup extends Component {
         end: 19
       }
     };
-
     return (
-      <div className="video-background">
+      <div className="video-background"> 
         <div className="video-foreground">
           <div className="container">
             <YouTube
