@@ -7,6 +7,14 @@ body {
         height: 100%; 
     }
     
+    .whiteTxt {
+      color: white;
+    }
+
+    .txtShadow {
+      text-shadow: 2px 3px 5px black;
+    }
+
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 300px;
