@@ -25,7 +25,7 @@ const Greeting = props => (
             <div className="row row-one">
                 <div className="col"><Link to="/News" className="button outerButtonTopLetf">
                     <img src={News} alt="news"/><br />News</Link></div>
-                <div className="col-2"><a href="/Purpose" className="button centerButton"><span>Purpose</span><br /><span className="comment">WHY WE GO</span></a></div>
+                <div className="col-3"><a href="/Purpose" className="button centerButton"><span>Purpose</span><br /><span className="comment">WHY WE GO</span></a></div>
                 <div className="col"><a href="/Watch" className="button outerButtonTopRight">
                     <img src={Watch} alt="watch"/><br />Watch</a></div>
             </div>
@@ -35,7 +35,7 @@ const Greeting = props => (
                     <img src={Gallery} alt="gallery"/><br />Gallery</a></div>
                 <div className="col"><a href="Button" className="button">
                     <img src={SignIn} alt="sign"/><br />Sign In</a></div>
-                <div className="col-2"><Link to="/Mission" className="button centerButton" ><span>Mission</span><br /><span className="comment">WHAT WE DO</span></Link></div>
+                <div className="col-3"><Link to="/Mission" className="button centerButton" ><span>Mission</span><br /><span className="comment">WHAT WE DO</span></Link></div>
                 <div className="col"><a href="/Signup" className="button">
                     <img src={Join} alt="join"/><br />Join</a></div>
                 <div className="col"><a href="/Gallery" className="button">
@@ -44,7 +44,7 @@ const Greeting = props => (
 
             <div className="row row-three">
                 <div className="col"><a href="/About" className="button outerButtonLetf">Who We Are</a></div>
-                <div className="col-2"><a href="/Vision" className="button centerButton"><span>Vision</span><br /><span className="comment">WHERE WE ARE HEADING</span></a></div>
+                <div className="col-3"><a href="/Vision" className="button centerButton"><span>Vision</span><br /><span className="comment">WHERE WE ARE HEADING</span></a></div>
                 <div className="col"><a href="/Research Flights" className="button outerButtonRight">Research Flights</a></div>
             </div>
 

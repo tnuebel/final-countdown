@@ -87,12 +87,12 @@ class Signup extends Component {
     );
   }
 
-  // _onEnd(event) {
-  //   // when the video end
-  //   // restart it from the 17 second mark 
-  //   console.log(event);
-  //   event.target.seekTo(17);
-  // }
+  _onEnd(event) {
+    // when the video end
+    // restart it from the 17 second mark 
+    console.log(event);
+    event.target.seekTo(17);
+  }
 
   handleFormSubmit(e) {
     e.preventDefault();

@@ -12,18 +12,18 @@ class Gallery extends React.Component {
 
                 <Parallax.Layer offset={0} speed={1} className="video-background">
                     <div className="video-foreground">
-                        <iframe src="https://www.youtube.com/embed/-aGISgOB6n0?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&mp;mute=1&amp;loop=1&amp;playlist=-aGISgOB6n0" title="blast off" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/-aGISgOB6n0?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&mp;mute=1&amp;loop=1&amp;playlist=-aGISgOB6n0" title="blast off" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     </div>
                 </Parallax.Layer>
 
                 <Parallax.Layer offset={1} speed={1} className="video-background">
                     <div className="video-foreground">
-                        <iframe src="https://www.youtube.com/embed/m1EBHOmXSqA?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=m1EBHOmXSqA" title="solar system" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                    </div>
+                        <iframe src="https://www.youtube.com/embed/m1EBHOmXSqA?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=m1EBHOmXSqA" title="solar system" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>                    </div>
                 </Parallax.Layer>
 
                 {/* <Parallax.Layer offset={2} speed={1} className="video-background">
                     <div className="video-foreground">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UHb7PiqRdAg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=UHb7PiqRdAg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UHb7PiqRdAg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=UHb7PiqRdAg" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     </div>
                 </Parallax.Layer> */}
 

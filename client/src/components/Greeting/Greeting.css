@@ -65,13 +65,13 @@ a.button {
           inset 0 -15px 30px rgba(0,0,0,0.3);  /*  Dark Background */
   
       margin: 5px;
-      display: inline-block;
+      display: block; /* inline-block */
       text-decoration: none;
   }
   
   a.centerButton {
-    height: 125px;
-    width: 200px;
+    height: 90%; /* 125px */
+    width: 100%;  /* 200px */
     font-size:1.5rem;
     border-radius: 5px 25px 5px 5px; /* top-left corner, top-right corner, bottom-right corner, bottom-left corner */
     border-image: linear-gradient(45deg, #00279d, #00f, #2f63ff, #7496ff, #7496ff);
@@ -89,6 +89,9 @@ a.button {
           inset 0 10px rgba(0,0,0,0), /* Top Light Shadow */
           inset 0 10px 20px rgba(0,0,0,0), /* Sides Light Shadow */
           inset 0 -15px 30px rgba(0,0,0,0); /* Dark Background */
+
+    display: block; /* inline-block */
+
   }
 
   a.outerButtonTopLetf{
