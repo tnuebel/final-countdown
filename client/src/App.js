@@ -68,15 +68,6 @@ class App extends Component {
             <Route exact path="/profile/:id" component={Profile} />
           </div>
         </Router>
-        <footer>
-          <div className="row ftr1">
-            <div className="col"><img width="25" height="25" alt="twitter" src="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="facebook" src="https://www.iconsdb.com/icons/preview/white/facebook-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="instagram" src="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/youtube-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /></div>
-          </div>
-        </footer>
       </Wrapper>
     );
   }
