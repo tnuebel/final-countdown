@@ -35,7 +35,10 @@ p.pb1 {
     text-align: left;
     margin-left: 12rem;
     margin-right: 12rem;
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
     color: aliceblue;
     text-shadow: 2px 3px 5px black;
 

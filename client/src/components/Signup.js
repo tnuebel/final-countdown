@@ -25,11 +25,13 @@ class Signup extends Component {
         autoplay: 1,        // Auto-play the video on load
         controls: 0,        // Show pause/play buttons in player
         showinfo: 0,        // Hide the video title
-        modestbranding: 1,  // Hide the Youtube Logo
+        autohide: 1,        // Hide video controls when playing
         fs: 1,              // Hide the full screen button
+        modestbranding: 1,  // Hide the Youtube Logo
         cc_load_policy: 0,  // Hide closed captions
         iv_load_policy: 3,  // Hide the Video Annotations
-        autohide: 0,        // Hide video controls when playing
+        mute: 1,            // Mutes the video
+        rel: 0,             // Hide related video recomendations
         start: 17,
         end: 19
       }
@@ -85,12 +87,12 @@ class Signup extends Component {
     );
   }
 
-  _onEnd(event) {
-    // when the video end
-    // restart it from the 17 second mark 
-    console.log(event);
-    event.target.seekTo(17);
-  }
+  // _onEnd(event) {
+  //   // when the video end
+  //   // restart it from the 17 second mark 
+  //   console.log(event);
+  //   event.target.seekTo(17);
+  // }
 
   handleFormSubmit(e) {
     e.preventDefault();

@@ -19,6 +19,10 @@ li.nav-item {
     width: auto;
 }
 
+a:hover {
+    color: lime;
+}
+
 .countdown-link {
     font-size: .75rem;
     color: #ffffff;

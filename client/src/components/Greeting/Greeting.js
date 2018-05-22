@@ -20,6 +20,7 @@ const Greeting = props => (
                 <iframe width="560" height="315" title="myIFrame" src="https://www.youtube.com/embed/y-o4ZKyyxMQ?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&mp;mute=1&amp;loop=1&amp;playlist=y-o4ZKyyxMQ&amp;start=60" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
             </div>
         </div>
+        
         <div className="pad1">
             <div className="row row-one">
                 <div className="col"><Link to="/News" className="button outerButtonTopLetf">
@@ -48,6 +49,15 @@ const Greeting = props => (
             </div>
 
         </div>
+        <footer>
+        <div className="row ftr1">
+          <div className="col"><img width="25" height="25" alt="twitter" src="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png" /></div>
+          <div className="col"><img width="25" height="25" alt="facebook" src="https://www.iconsdb.com/icons/preview/white/facebook-xxl.png" /></div>
+          <div className="col"><img width="25" height="25" alt="instagram" src="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png" /></div>
+          <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/youtube-xxl.png" /></div>
+          <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /></div>
+        </div>
+      </footer>
     </div>
 
 );

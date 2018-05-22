@@ -1,4 +1,4 @@
-.pad1{
+.pad1 {
   margin-left: 7rem;
   margin-right: 7rem;
 }
@@ -140,6 +140,13 @@ a.button {
     height: 100%;
     pointer-events: none;
   }
+
+.ftr1 {
+  padding: 30px;
+  margin-top: 10rem;
+  margin-right: 31rem;
+  float: right;
+}
   
   #vidtop-content {
       top: 0;
