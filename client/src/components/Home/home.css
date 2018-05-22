@@ -36,7 +36,7 @@ background-image: url("https://arc-anglerfish-arc2-prod-mco.s3.amazonaws.com/pub
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 36px;
   }
   
   a {
@@ -46,7 +46,9 @@ background-image: url("https://arc-anglerfish-arc2-prod-mco.s3.amazonaws.com/pub
   }
   
   button:hover, a:hover {
+
     opacity: 0.7;
+
   }
 
 
