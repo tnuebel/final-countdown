@@ -1,0 +1,77 @@
+.missionpage {
+    background-image: url("http://listverse.wpengine.netdna-cdn.com/wp-content/uploads/2017/11/iStock-628496452.jpg"); 
+}
+
+
+.containerVision {
+    /* background-color: black; */
+    background: rgba(0,0,0,0.5);
+
+}
+
+.tbl {
+    font-size: 5rem;
+    text-align: center;
+    margin: 3rem;
+    color: aliceblue;
+    text-shadow: 2px 3px 5px black;
+
+}
+
+.vb1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 3rem;
+    color: aliceblue;
+    text-shadow: 2px 3px 5px black;
+}
+
+p.pb1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+    color: aliceblue;
+}
+
+.pb2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding: 3rem;
+    color: aliceblue;
+    text-shadow: 2px 3px 5px black;
+
+}
+
+p.pb3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+    color: aliceblue;
+}
+
+.signature {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: aliceblue;
+}
+
+.signature1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .9rem;
+    text-align: right;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    color: aliceblue;
+}
