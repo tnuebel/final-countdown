@@ -69,6 +69,7 @@ class Vision extends Component {
                     </Parallax>
 
                     <p className='pb2'>"We are entering a new space age and I hope this will create a new unity. Space exploration has already been a great unifier, we seem able to cooperate between nations in space in a way we can only envy on Earth."</p>
+                    <p className='signature1'>- Tom Nuebel VP of Marketing The Final Countdown</p>
 
                     <Parallax bgImage={image2} strength={-200}>
                         <div style={{ height: 500 }}>

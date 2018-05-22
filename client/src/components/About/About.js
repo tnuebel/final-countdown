@@ -12,8 +12,8 @@ const image1 = "http://www.latimes.com/resizer/7AJr7VUeQhbrbeK1buHTyLx_0VI=/1400
 const image2 = "https://cbsnews2.cbsistatic.com/hub/i/r/2016/08/01/2086746a-139a-4e23-8ea0-b744060456f7/thumbnail/620x350/daefd226710f1a80ea95d0e475b6b23a/160727-apollo17-02.jpg";
 const image3 = "https://static.guim.co.uk/sys-images/Guardian/Pix/maps_and_graphs/2010/2/1/1265021443011/Buzz-Aldrin-on-moon-001.jpg";
 const image4 = "https://images.tech.co/wp-content/uploads/2017/09/625307main_curiosity_ac.jpg";
-const image5 = 
-"https://orion-uploads.openroadmedia.com/lg_6f0eb47444d3-space-travel-books_featured.jpg";
+const image5 =
+    "https://orion-uploads.openroadmedia.com/lg_6f0eb47444d3-space-travel-books_featured.jpg";
 
 class About extends Component {
 
@@ -70,15 +70,6 @@ class About extends Component {
                         <div style={{ height: 500 }}>
                         </div>
                     </Parallax>
-
-
-                    {/* </div>
-                    </div>
-                </div> */}
-                    {/* <div className="video-background">
-            <div className="video-foreground">
-                <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=W0LHTWG-UmQ" title="ISS Timelapse" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-            </div> */}
 
                 </div>
             </div>

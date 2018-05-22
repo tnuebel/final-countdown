@@ -15,8 +15,17 @@ li.nav-item {
     padding: 3rem;
 }
 
+/* .navbarclasses {
+    transition: transform 2000ms ease-in-out;
+} */
+
+
 #nvb1 {
     width: auto;
+}
+
+a:hover {
+    color: lime;
 }
 
 .countdown-link {
