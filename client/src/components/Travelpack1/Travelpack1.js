@@ -116,7 +116,7 @@ class Travelpack1 extends Component {
                         <div className="container">
                             <div className="row">
 
-                                <div className="col-lg-8 offset-lg-2">
+                                <div className="col-lg-8 offset-lg-2 txtShadow">
                                 <br />
                                 <br />
 
