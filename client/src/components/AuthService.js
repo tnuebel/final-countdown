@@ -89,7 +89,7 @@ export default class AuthService {
             headers['Authorization'] = 'Bearer ' + this.getToken()
             axios.defaults.headers.common['Authorization'] = `Bearer ${this.getToken()}`;
         }
-
+        
         return fetch(url, {
             headers,
             ...options

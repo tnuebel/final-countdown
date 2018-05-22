@@ -10,7 +10,6 @@ import Booking from "./components/Booking";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Gallery from "./components/Gallery";
-import Gallery1 from "./components/Gallery1";
 import Launchdates from "./components/Launchdates";
 import Mission from "./components/Mission";
 import Payment from "./components/Payment";
@@ -49,10 +48,10 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />
             <Route exact path="/booking" component={Booking} />
+            <Route exact path="/Greeting" component={Greeting} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/faq" component={Faq} />
             <Route exact path="/gallery" component={Gallery} />
-            <Route exact path="/gallery1" component={Gallery1} />
             <Route exact path="/launchdates" component={Launchdates} />
             <Route exact path="/mission" component={Mission} />
             <Route exact path="/payment" component={Payment} />
