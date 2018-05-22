@@ -9,10 +9,10 @@
 p {
     text-align: center;
     color: #ffffff;
-    /* font-family: 'Sunflower', sans-serif;
+    font-family: 'Sunflower', sans-serif;
     font-family: 'Prosto One', cursive;
-    font-family: 'Audiowide', cursive; */
-    font-size: 20px;
+    font-family: 'Audiowide', cursive;
+    font-size: 3rem;
 }
 
 
