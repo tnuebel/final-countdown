@@ -1,55 +1,97 @@
 import React, { Component } from 'react';
+import newReviews from "./newReviews.json";
+import NewReview from "./NewReview.js";
 import './Review.css';
 class Review extends Component {
+    constructor() {
+        super()
+        this.state = {
+            reviews: newReviews,
+            title: "",
+            name: "",
+            review: ""
+        };
+        this.handleChange = this.handleChange.bind(this);
+        this.addReview = this.addReview.bind(this);
+    }
+
+    addReview(e) {
+        e.preventDefault()
+
+
+        console.log(this.state)
+        var reviews = this.state.reviews;
+
+        //push code into reviews array//
+               reviews.push({
+                title: this.state.title,
+                name: this.state.name, 
+                review: this.state.review
+       
+        });
+
+        
+
+        this.setState({
+            reviews: reviews
+        })
+    }
+
+    handleChange(e) {
+        this.setState(
+          {
+            [e.target.name]: e.target.value
+          }
+        )
+      }
+
     render() {
         return (
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm">
-                            <div className="card">
-                                <h2>Great Experience</h2>
-                                <img src="http://www.abc.net.au/news/image/8834718-3x2-940x627.jpg"alt="Space" />
-                                <h3>This was truly a great experience and I know great experiences.. can’t wait to go back! Gotta keep the aliens out! #buildTheDome</h3>
-                                <p className="title">Donald Trump - POTUS</p>
+
+                        {this.state.reviews.map((item) =>
+                            <NewReview
+
+                                title={item.title}
+                                image={item.image}
+                                review={item.review}
+                                name={item.name} />
+                        )}
+                        
+                        <form className="addReview" onSubmit={this.addReview}>
+
+                            <div className="form-group">
+                                <input className="form-control"
+                                    placeholder="enter title:"
+                                    name="title"
+                                    onChange={this.handleChange} />
                             </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className="card">
-                                <h2>Better than marriage</h2>
-                                <img src="https://i.ytimg.com/vi/Bck2kAaGRWU/maxresdefault.jpg" alt="Space" />
-                                <h3>I was going to fund my daughters wedding in Hawaii but I figured the memories from this trip would last longer than than her marriage.</h3>
-                                <p className="title">Ron - Dallas TX</p>
+                            <div className="form-group">
+                                <input className="form-control"
+                                    placeholder="Add a review:"
+                                    name="review"
+                                    onChange={this.handleChange} />
                             </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className="card">
-                                <h2>Upchuck</h2>
-                                <img src="https://i.ytimg.com/vi/6JoawAJwVYg/maxresdefault.jpg" alt="Space" />
-                                <h3>Vomit commit lived up to its name...BARFED everywhere!!! AWESOME!!!</h3>
-                                <p className="title">Steve - San Diego CA</p>
+                            <div className="form-group">
+                                <input className="form-control"
+                                    placeholder="name"
+                                    name="name"
+                                    onChange={this.handleChange} />
                             </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className="card">
-                                <h2>Disappointed</h2>
-                                <img src="https://pbs.twimg.com/media/DKxbCKSUIAARteR.jpg" alt="Space" />
-                                <h3>Tried going outside without my space suit on and they yelled at me. Will be flying United from now on.</h3>
-                                <p className="title">Sue - Kansas MO</p>
-                            </div>
-                        </div>
+                          
+                            <button type="submit" className="btn btn-primary">Submit</button>
+                        </form>
+
                     </div>
 
                 </div>
             </div>
-
         )
     }
-
-
-
-
 }
+
 
 export default Review;
 
