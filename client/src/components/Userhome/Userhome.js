@@ -6,7 +6,7 @@ import "./Userhome.css"
 class Userhome extends Component {
     render() {
         return (
-            <div className="center">
+            <div>
                 <h1 className="whiteTxt">User Home</h1>
                 {/* <div>
                     <Link to="../Vision">
@@ -14,7 +14,7 @@ class Userhome extends Component {
                     </Link>
                 </div> */}
                 <br />
-                <div>
+                <div className="centerDiv">
                     <a href="https://www.lunarland.com/" class="btn btn-info" role="button" target="_blank">Don't miss the LunarLand Rush - Buy the Moon</a>
                 </div>
                 <br />
