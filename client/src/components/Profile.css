@@ -1,4 +1,48 @@
-.home-btn {
-    color: white;
-    background-color: red;
+
+.packages {
+    margin: 1rem;
+    float: left;
+} 
+
+.profile .card-title {
+    color: #ffffff;
 }
+
+.profile .card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.profile:hover .card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.profile img {
+    max-height: 100%;
+}
+
+.card {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: rgba(0,0,0,0.5);
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.profile a:hover {
+    transition: transform .2s; /* Animation */
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+}
+
+.profile .grow { transition: all .2s ease-in-out; }
+.profile .grow:hover { transform: scale(1.1); }
+
+
+
+
