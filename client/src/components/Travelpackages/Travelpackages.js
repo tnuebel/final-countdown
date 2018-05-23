@@ -95,24 +95,4 @@ class Travelpackages extends Component {
 }
 
 
-{/* <Link to="../Travelpack1">
-                <button type="button" class="btn btn-dark">Bronze</button>
-                    </Link>
-                    <Link to="../Travelpack2">
-                <button type="button" class="btn btn-dark">Silver</button>
-                    </Link>
-                    <Link to="../Travelpack3">
-                <button type="button" class="btn btn-dark">Gold</button>
-                    </Link>
-                    <Link to="../Travelpack4">
-                <button type="button" class="btn btn-dark">Platinum</button>
-                    </Link> */}
-
-
-
-
-
-
-
-
 export default Travelpackages; 

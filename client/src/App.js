@@ -9,6 +9,7 @@ import About from "./components/About";
 import Booking from "./components/Booking";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
+import Future from "./components/Future";
 import Gallery from "./components/Gallery";
 import Launchdates from "./components/Launchdates";
 import Mission from "./components/Mission";
@@ -38,6 +39,7 @@ if (localStorage.getItem("id_token")) {
 }
 
 class App extends Component {
+
   render() {
     return (
       <Wrapper>
@@ -45,7 +47,6 @@ class App extends Component {
         <Router>
           <div>
             <Navbar />
-
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />
@@ -53,6 +54,7 @@ class App extends Component {
             <Route exact path="/Greeting" component={Greeting} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/faq" component={Faq} />
+            <Route exact path="/future" component={Future} />
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/launchdates" component={Launchdates} />
             <Route exact path="/mission" component={Mission} />
@@ -71,15 +73,6 @@ class App extends Component {
             <Route exact path="/starman" component={Starman} />
           </div>
         </Router>
-        <footer>
-          <div className="row ftr1">
-            <div className="col"><img width="25" height="25" alt="twitter" src="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="facebook" src="https://www.iconsdb.com/icons/preview/white/facebook-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="instagram" src="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/youtube-xxl.png" /></div>
-            <div className="col"><img width="25" height="25" alt="youtube" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /></div>
-          </div>
-        </footer>
       </Wrapper>
     );
   }
