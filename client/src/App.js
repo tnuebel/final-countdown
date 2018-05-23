@@ -9,6 +9,7 @@ import About from "./components/About";
 import Booking from "./components/Booking";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
+import Future from "./components/Future";
 import Gallery from "./components/Gallery";
 import Launchdates from "./components/Launchdates";
 import Mission from "./components/Mission";
@@ -40,13 +41,13 @@ if (localStorage.getItem("id_token")) {
 }
 
 class App extends Component {
+
   render() {
     return (
       <Wrapper>
         <Router>
           <div>
             <Navbar />
-
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={About} />
             <Route exact path="/Home" component={Home} />
@@ -54,6 +55,7 @@ class App extends Component {
             <Route exact path="/Greeting" component={Greeting} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/faq" component={Faq} />
+            <Route exact path="/future" component={Future} />
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/launchdates" component={Launchdates} />
             <Route exact path="/mission" component={Mission} />
