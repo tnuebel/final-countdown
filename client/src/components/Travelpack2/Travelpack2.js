@@ -10,13 +10,13 @@ const styles = {
 
 
 const image1 = "https://www.walldevil.com/wallpapers/w02/804274-artwork-astronauts-earth-outer-space-travel.jpg";
-const image2 = "https://assets.entrepreneur.com/content/3x2/1300/20171227151824-F9-Launch.jpeg";
-const image3 = "https://i.pinimg.com/originals/f3/d6/5a/f3d65a5a7c75a10f85c6d94b6088c652.jpg";
-const image4 = "https://i.ytimg.com/vi/1mx-BRJM0sA/maxresdefault.jpg";
-const image5 = "https://i.pinimg.com/736x/87/fa/71/87fa712fdbd0425c06a67786ec32cb23--space-travel-space-exploration.jpg";
-const image6 = "https://dallasnews.imgix.net/Space_Shuttle-Last_Stop.jpg";
-const image7 = "https://i.pinimg.com/originals/27/94/ea/2794eaad5ef1b51f58244a8c5d868cd8.jpg";
-const image8 = "https://static.guim.co.uk/sys-images/Guardian/Pix/maps_and_graphs/2010/2/1/1265021443011/Buzz-Aldrin-on-moon-001.jpg";
+// const image2 = "https://fthmb.tqn.com/LgHYuPtCt2vM7T4KJSfaC-95xR0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/ss2_freeflight02-lg-5895a01f3df78caebc943baa.jpg";
+// const image3 = "https://img.jakpost.net/c/2016/08/02/2016_08_02_9256_1470124337._large.jpg";
+const image4 = "http://voices.washingtonpost.com/blog-post/discovery3.JPG";
+// const image5 = "https://i.pinimg.com/736x/87/fa/71/87fa712fdbd0425c06a67786ec32cb23--space-travel-space-exploration.jpg";
+// const image6 = "https://dallasnews.imgix.net/Space_Shuttle-Last_Stop.jpg";
+// const image7 = "https://i.pinimg.com/originals/27/94/ea/2794eaad5ef1b51f58244a8c5d868cd8.jpg";
+// const image8 = "https://static.guim.co.uk/sys-images/Guardian/Pix/maps_and_graphs/2010/2/1/1265021443011/Buzz-Aldrin-on-moon-001.jpg";
 
 
 
@@ -32,6 +32,7 @@ class Travelpack2 extends Component {
     render() {
         return (
             <div className="containerVision">
+            {/* <br /> */}
                 <div className='tbl'>Silver Package: Escape From Earth</div>
                 <div className="video-background">
                     <div className="video-foreground">
@@ -40,10 +41,9 @@ class Travelpack2 extends Component {
                 </div>
                 <div style={styles}>
 
-                    <Parallax bgImage={image7}
+                    <Parallax bgImage={image4}
                         strength={500}>
-                        <div style={{ height: 500 }}>
-                            {/* <div style={insideStyles}>HTML inside the parallax</div> */}
+                        <div style={{ height: 750 }}>
                         </div>
                     </Parallax>
 
@@ -52,32 +52,27 @@ class Travelpack2 extends Component {
                             <div className="row">
 
                                 <div className="col-lg-8 offset-lg-2 txtShadow">
-                                    <br />
-                                    <br />
-
-                                    {/* <h2 className='pb1'>Silver Package: Atmosphere Exit</h2> */}
-                                    <br />
-
+                         
                                     <h2 className='pb1'>Our Silver Package takes our Bronze package and straps rockets on it, literally.  This journey takes our clients outside the Earth’s atmosphere to the edge of space, at over 350,000 feet.  This flight takes place on a smaller aircraft not designed for long-duration missions, giving the clients close to what would be the full astronaut experience.</h2>
                                     <br />
 
                                     <h2 className='vb1'>Package Inclusions:</h2>
 
 
-                                    <li>A 3-hour trip to edge of the Earth’s atmosphere.</li>
-                                    <li>Training: 3 days of astronaut training.</li>
-                                    <li>Pre/post launch transportation.</li>
-                                    <li>Atmospheric space tour (3 hours).</li>
-                                    <li>Post re-entry celebration.</li>
+                                    <h5><li>A 3-hour trip to edge of the Earth’s atmosphere.</li></h5>
+                                    <h5><li>Training: 3 days of astronaut training.</li></h5>
+                                    <h5><li>Pre/post launch transportation.</li></h5>
+                                    <h5><li>Atmospheric space tour (3 hours).</li></h5>
+                                    <h5><li>Post re-entry celebration.</li></h5>
                                     <br />
 
                                     <h5>Cost: $250,000.00/person.</h5>
-
+                                    <br />
                                     <br />
 
-                                    <h3>How it works:</h3>
+                                    <h3>How We Do It:</h3>
 
-                                    <h3 className='vb1'>Space ship <strong>"Kiss My Grits"</strong> is lofted to 50,000 feet, then released by a carrier aircraft.  After separation, the rocket engines are engaged for 70 seconds, accelerating to 2,500mph, then the rockets are shut down and the craft continues to climb past 328,000 feet, an altitude which transforms our clients into astronauts.  The craft reaches its highest altitude at 361,000 feet where up to five minutes of weightlessness can be experienced. The aircraft then re-enters the Earth’s atmosphere and finally performs a conventional landing on a runway.</h3>
+                                    <h3>Space ship <strong>"Kiss My Grits"</strong> is lofted to 50,000 feet, then released by a carrier aircraft.  After separation, the rocket engines are engaged for 70 seconds, accelerating to 2,500mph, then the rockets are shut down and the craft continues to climb past 328,000 feet, an altitude which transforms our clients into astronauts.  The craft reaches its highest altitude at 361,000 feet where up to five minutes of weightlessness can be experienced. The aircraft then re-enters the Earth’s atmosphere and finally performs a conventional landing on a runway.</h3>
                                     <br />
 
                                     <Link to="../Payment">
@@ -89,13 +84,10 @@ class Travelpack2 extends Component {
                             </div>
                         </div>
                     </div>
-
-                    <Parallax bgImage={image8} /* blur={{ min: -1, max: 3 }} */>
-                        <div style={{ height: 800 }}>
-                            {/* <div style={insideStyles}>Dynamic Blur</div> */}
+                    <Parallax bgImage={image1}>
+                        <div style={{ height: 750 }}>
                         </div>
                     </Parallax>
-
                 </div>
             </div>
 
