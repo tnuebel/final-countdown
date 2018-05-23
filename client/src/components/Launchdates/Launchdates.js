@@ -423,7 +423,7 @@ class Launchdates extends Component {
             "success": "True, reuse of Dragon capsule"
         },
         {
-            "flight number": "52",
+            "flight number": "**52",
             "rocket ID": "falcon9",
             "mission name": "Iridium NEXT Mission 4",
             "launch site": "Vandenberg Air Force Base Space Launch Complex 4E",
