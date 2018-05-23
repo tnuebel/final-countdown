@@ -27,6 +27,7 @@ import Signup from './components/Signup';
 import AuthService from './components/AuthService';
 import withAuth from './components/withAuth';
 import axios from "axios";
+import Starman from "./components/Starman"; 
 
 const Auth = new AuthService();
 
@@ -40,6 +41,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <img id="background" src="https://arc-anglerfish-arc2-prod-mco.s3.amazonaws.com/public/PY7W7JI5U5ACFMJIJKHSEDAVFY.jpg" />
         <Router>
           <div>
             <Navbar />
@@ -66,6 +68,7 @@ class App extends Component {
             <Route exact path="/login" component={Login} />
             <Route exact path="/signup" component={Signup} />
             <Route exact path="/profile/:id" component={Profile} />
+            <Route exact path="/starman" component={Starman} />
           </div>
         </Router>
         <footer>

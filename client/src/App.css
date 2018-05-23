@@ -1,7 +1,18 @@
+#background {
+    position: fixed; 
+    bottom: 0;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: -100;
+}
 
 .ftr1 {
     padding: 30px;
     margin-top: 10rem;
     margin-right: 31rem;
     float: right;
+}
+body {
+    padding-top: 40px; 
 }
