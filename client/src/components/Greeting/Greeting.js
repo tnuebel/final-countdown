@@ -32,7 +32,7 @@ const Greeting = props => (
             <div className="row row-two">
                 <div className="col-sm"><a href="Gallery" className="button">
                     <img src={Gallery} alt="gallery"/><br />Gallery</a></div>
-                <div className="col-sm"><a href="Button" className="button">
+                <div className="col-sm"><a href="/Login" className="button">
                     <img src={SignIn} alt="sign"/><br />Sign In</a></div>
                 <div className="col-sm-3"><Link to="/Mission" className="button centerButton" ><span>Mission</span><br /><span className="comment">WHAT WE DO</span></Link></div>
                 <div className="col-sm"><a href="/Signup" className="button">
