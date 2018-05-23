@@ -22,8 +22,11 @@ const Greeting = props => (
         
         <div className="pad1">
             <div className="row row-one">
-                <div className="col-sm"><Link to="/News" className="button outerButtonTopLetf">
-                    <img src={News} alt="news"/><br />News</Link></div>
+                <div className="col-sm">
+                <a href="https://www.space.com/news" className="button outerButtonTopLetf">
+                       <img src={News} alt="news"/><br />News</a>
+                </div>
+
                 <div className="col-sm-3"><a href="/Purpose" className="button centerButton"><span>Purpose</span><br /><span className="comment">WHY WE GO</span></a></div>
                 <div className="col-sm"><a href="/Watch" className="button outerButtonTopRight">
                     <img src={Watch} alt="watch"/><br />Watch</a></div>
