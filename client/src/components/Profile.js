@@ -22,10 +22,10 @@ class Profile extends Component {
   render() {
     return (
       <div className="container Profile">
-        <h1>On the profile page!</h1>
+        {/* <h1>On the profile page!</h1> */}
         <p>Username: {this.state.username}</p>
         <p>Email: {this.state.email}</p>
-        <Link to="/">Go home</Link>
+        <Link  to="/" className="home-btn" >Home</Link>
       </div>
     );
   }

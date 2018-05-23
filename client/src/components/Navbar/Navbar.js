@@ -50,7 +50,8 @@ class MainNav extends React.Component {
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Signup"><img src={SignIn} alt="sign-in" /> Sign In</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="https://github.com/reactstrap/reactstrap">
                   <img width="20" height="20" alt="github" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /> GitHub</Link>
-                  <button type="button" onClick={this.handleLogout}>Logout</button>
+                  
+                  <button onClick={this.toggleNavbar} className="countdown-link general logout-btn" onClick={this.handleLogout}>Logout</button>
 
               </NavItem>
             </Nav>
