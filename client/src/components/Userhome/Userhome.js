@@ -13,13 +13,14 @@ class Userhome extends Component {
                         <button type="button" class="btn btn-dark">Dark</button>
                     </Link>
                 </div> */}
+
                 <br />
-                <div className="centerDiv">
-                    <a href="https://www.lunarland.com/" class="btn btn-info" role="button" target="_blank">Don't miss the LunarLand Rush - Buy the Moon</a>
+                <div>
+                    <a href="https://www.lunarland.com/" class="btn btn-info centerButton" role="button" target="_blank">Don't miss the LunarLand Rush - Buy the Moon</a>
                 </div>
                 <br />
                 <div>
-                    <a href="https://www.globalstarregistry.com/us" class="btn btn-info" role="button" target="_blank">Name a Star at the Global Star Registry</a>
+                    <a href="https://www.globalstarregistry.com/us" class="btn btn-info centerButton" role="button" target="_blank">Name a Star at the Global Star Registry</a>
                 </div>
             </div>
 
