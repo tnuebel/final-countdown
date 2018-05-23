@@ -21,7 +21,6 @@ import Travelpack2 from "./components/Travelpack2";
 import Travelpack3 from "./components/Travelpack3";
 import Travelpack4 from "./components/Travelpack4";
 
-import News from "./components/News";
 
 import Userhome from "./components/Userhome";
 import Vision from "./components/Vision";
@@ -67,7 +66,6 @@ class App extends Component {
             <Route exact path="/travelpack3" component={Travelpack3} />
             <Route exact path="/travelpack4" component={Travelpack4} />
 
-            <Route exact path="/News" component={News} />
 
             <Route exact path="/userhome" component={Userhome} />
             <Route exact path="/vision" component={Vision} />
