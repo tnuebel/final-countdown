@@ -42,7 +42,7 @@ class MainNav extends React.Component {
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="/"><img src={Home} alt="home" /> Home</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Booking">Booking</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Contact"><img src={Contact} alt="contact" /> Contact</Link>
-                <Link onClick={this.toggleNavbar} className="countdown-link center" to="/About">Purpose</Link>
+                <Link onClick={this.toggleNavbar} className="countdown-link center" to="/Future">Purpose</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link center" to="/Mission">Mission</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link center" to="/Vision">Vision</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Gallery"><img src={Gallery} alt="gallery" /> Gallery</Link>
