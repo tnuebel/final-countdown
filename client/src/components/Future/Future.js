@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 import "./Future.css"
-import { Link } from "react-router-dom";
+
 
 const styles = {
     fontFamily: 'sans-serif',
@@ -11,11 +11,11 @@ const styles = {
 
 const image1 = "https://cdn.cnn.com/cnnnext/dam/assets/170915093345-cassini-farwell-02-super-169.jpg";
 const image2 = "https://astronomyisawesome.com/wp-content/uploads/2015/11/1920x1200x5-most-beautiful-nebulae.jpeg.pagespeed.ic.za_3DLMLrg.jpg";
-const image3 = "https://cdn.history.com/sites/2/2014/02/space-race-H.jpeg";
+// const image3 = "https://cdn.history.com/sites/2/2014/02/space-race-H.jpeg";
 const image4 = "https://nerdist.com/wp-content/uploads/2017/07/Jupiter-Eye-JunoCam-Picture-Feature-Image-07122017.jpg";
 const image5 = "../images/final010.png";
 // const image5 = "https://cdn.pixabay.com/photo/2016/10/07/14/39/space-1721679_960_720.jpg";
-const image6 = "https://dallasnews.imgix.net/Space_Shuttle-Last_Stop.jpg";
+// const image6 = "https://dallasnews.imgix.net/Space_Shuttle-Last_Stop.jpg";
 const image7 = "https://i.pinimg.com/originals/27/94/ea/2794eaad5ef1b51f58244a8c5d868cd8.jpg";
 const image8 = "https://thumbs-prod.si-cdn.com/F1MA8tcQsfUaQx2VJIALCckgKOc=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/00/ac/00acaa36-3745-43c0-82c2-b78b4b0002d0/14h_fm2017_opener_torpor-11_live.jpg";
 

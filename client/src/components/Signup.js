@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './Signup.css';
-import AuthService from './AuthService';
 import { Link } from 'react-router-dom';
+import AuthService from './AuthService';
 import YouTube from 'react-youtube';
 import './Signup.css';
 
@@ -12,11 +11,6 @@ class Signup extends Component {
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
     this.Auth = new AuthService();
   }
-
-  // componentWillMount() {
-  //   if (this.Auth.loggedIn())
-  //     this.props.history.replace('/');
-  // }
 
   render() {
     const opts = {
@@ -38,6 +32,7 @@ class Signup extends Component {
       }
     };
     return (
+
       <div className="video-background"> 
         <div className="video-foreground">
           <div className="container">
@@ -50,7 +45,7 @@ class Signup extends Component {
         </div>
 
         <div class="form-wrapper">
-          <h1>Signup</h1>
+          <h1 style={{ color: "white" }}>Signup</h1>
           <form onSubmit={this.handleFormSubmit}>
             <div className="form-group">
               <label htmlFor="username"></label>

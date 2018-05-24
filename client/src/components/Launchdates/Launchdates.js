@@ -7,8 +7,6 @@ class Launchdates extends Component {
     componentDidMount() {
         API.getSpacexAll().then(res => {
             console.log(res.data);
-            
-
         });
     }
 
