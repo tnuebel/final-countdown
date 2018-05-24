@@ -68,9 +68,9 @@ app.get('/user/:id', isAuthenticated, (req, res) => {
   }).catch(err => res.status(400).send(err));
 });
 
-app.get('/', isAuthenticated /* Using the express jwt MW here */, (req, res) => {
-  res.send('You are authenticated'); //Sending some response when authenticated
-});
+// app.get('/', isAuthenticated /* Using the express jwt MW here */, (req, res) => {
+//   res.send('You are authenticated'); //Sending some response when authenticated
+// });
 
 
 // Serve up static assets (usually on heroku)
