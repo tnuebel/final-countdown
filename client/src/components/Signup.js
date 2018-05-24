@@ -53,7 +53,7 @@ class Signup extends Component {
           <h1>Signup</h1>
           <form onSubmit={this.handleFormSubmit}>
             <div className="form-group">
-              <label htmlFor="username">Username:</label>
+              <label htmlFor="username"></label>
               <input className="form-control"
                 placeholder="Username goes here..."
                 name="username"
@@ -62,7 +62,7 @@ class Signup extends Component {
                 onChange={this.handleChange} />
             </div>
             <div className="form-group">
-              <label htmlFor="email">Email address:</label>
+              <label htmlFor="email"></label>
               <input className="form-control"
                 placeholder="Email goes here..."
                 name="email"
@@ -71,7 +71,7 @@ class Signup extends Component {
                 onChange={this.handleChange} />
             </div>
             <div className="form-group">
-              <label htmlFor="pwd">Password:</label>
+              <label htmlFor="pwd"></label>
               <input className="form-control"
                 placeholder="Password goes here..."
                 name="password"

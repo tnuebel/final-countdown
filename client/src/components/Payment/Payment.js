@@ -7,14 +7,13 @@ import { Row, Col, FormGroup, Button, Alert } from 'react-bootstrap';
 export class CreditCard extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       number: null,
       exp_month: null,
       exp_year: null,
       cvc: null,
       token: null,
-      show: false
+      show: false, 
     };
 
     this.setCardType = this.setCardType.bind(this);
@@ -72,10 +71,10 @@ renderCardForm() {
           <input
             onKeyUp={ this.setCardType }
             className="form-control"
-            type="text"
-            ref="number"
-            placeholder="Card Number"
-          />
+            type="text" 
+            ref="number" 
+            placeholder="Card Number" 
+            />
         </FormGroup>
       </Col>
     </Row>
@@ -88,6 +87,7 @@ renderCardForm() {
               type="text"
               ref="expiration"
               placeholder="MM/YYYY"
+              
             />
           </FormGroup>
         </Col>
@@ -98,12 +98,13 @@ renderCardForm() {
               type="text"
               ref="cvc"
               placeholder="CVC"
+             
             />
           </FormGroup>
         </Col>
       </Row>
-        <Button onClick={() => alert("Thank you for your payment. /n Confirmation reciept has been sent to your Email")} type="submit" bsStyle="warning" block>Submit Payment</Button>
-
+        <Button onClick={() => alert("Thank you for your payment. \n Confirmation reciept has been sent to your Email")} type="submit" bsStyle="warning" block>Submit Payment</Button>
+            
       </form>);
   }
     
