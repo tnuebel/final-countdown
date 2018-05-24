@@ -1,3 +1,9 @@
 .table {
-    color: white; 
+    /* margin: 3rem; */
+    /* margin-right: 10rem; */
+    color: white;
+}
+
+.table td, .table th {
+margin-right: 10rem;
 }

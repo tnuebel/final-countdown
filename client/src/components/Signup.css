@@ -1,3 +1,14 @@
+/* #background1 {
+    position: fixed; 
+    bottom: 0;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    background-position-x: -300;
+    background-position-y: 0;
+    z-index: -100;
+} */
+
 .container {
     margin-top: 50px; 
 }

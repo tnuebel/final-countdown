@@ -70,7 +70,7 @@ a.button {
   }
   
   a.centerButton {
-    height: 90%; /* 125px */
+    height: 135%; /* 125px */
     width: 100%;  /* 200px */
     font-size:1.5rem;
     border-radius: 5px 25px 5px 5px; /* top-left corner, top-right corner, bottom-right corner, bottom-left corner */
