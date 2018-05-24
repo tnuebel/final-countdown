@@ -27,7 +27,7 @@ const Greeting = props => (
                         <img src={News} alt="news" /><br />News</a>
                 </div>
 
-                <div className="col-sm-3"><a href="/Future" className="button centerButton"><span>Purpose</span><br /><span className="comment">WHY WE GO</span></a></div>
+                <div className="col-sm-3"><a href="/Future" className="button centerButton"><span>Future</span><br /><span className="comment">WHY WE GO</span></a></div>
 
                 <div className="col-sm"><a href="/Booking" className="button outerButtonTopRight">
                     <img src={Watch} alt="watch" /><br />Watch</a></div>
