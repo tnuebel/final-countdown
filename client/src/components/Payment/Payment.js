@@ -27,6 +27,8 @@ export class CreditCard extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
+    alert("Thank you for your payment. \n Confirmation reciept has been sent to your Email")
+
     this.resetCard();
 
     // const { refs } = this;
@@ -73,6 +75,8 @@ renderCardForm() {
             className="form-control"
             type="text" 
             ref="number" 
+            required="true"
+            
             placeholder="Card Number" 
             />
         </FormGroup>
@@ -87,7 +91,7 @@ renderCardForm() {
               type="text"
               ref="expiration"
               placeholder="MM/YYYY"
-              
+              required="true"
             />
           </FormGroup>
         </Col>
@@ -98,16 +102,18 @@ renderCardForm() {
               type="text"
               ref="cvc"
               placeholder="CVC"
+              required="true"
              
             />
           </FormGroup>
         </Col>
       </Row>
-        <Button onClick={() => alert("Thank you for your payment. \n Confirmation reciept has been sent to your Email")} type="submit" bsStyle="warning" block>Submit Payment</Button>
+        <Button onClick={this.fillOut} type="submit" bsStyle="warning" block>Submit Payment</Button>
             
       </form>);
   }
-    
+    fillOut() {
+    }
 
   renderCard() {
     const { number, exp_month, exp_year, cvc, token } = this.state;
