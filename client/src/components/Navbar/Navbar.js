@@ -6,9 +6,8 @@ import Contact from "../icons/Contact-18.png"
 import Gallery from "../icons/Gallery-18.png"
 import Home from "../icons/Home-18.png"
 import SignIn from "../icons/Sign-in-18.png"
-
 import AuthService from '../AuthService';
-import withAuth from '../withAuth';
+// import withAuth from '../withAuth';
 const Auth = new AuthService();
 
 class MainNav extends React.Component {
@@ -47,11 +46,11 @@ class MainNav extends React.Component {
                 <Link onClick={this.toggleNavbar} className="countdown-link center" to="/Mission">Mission</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link center" to="/Vision">Vision</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Gallery"><img src={Gallery} alt="gallery" /> Gallery</Link>
-                <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Signup"><img src={SignIn} alt="sign-in" /> Sign In</Link>
+                <Link onClick={this.toggleNavbar} className="countdown-link general" to="/Login"><img src={SignIn} alt="sign-in" /> Sign In</Link>
                 <Link onClick={this.toggleNavbar} className="countdown-link general" to="https://github.com/reactstrap/reactstrap">
                   <img width="20" height="20" alt="github" src="https://www.iconsdb.com/icons/preview/white/github-6-xxl.png" /> GitHub</Link>
                   
-                  <button onClick={this.toggleNavbar} className="countdown-link general logout-btn" onClick={this.handleLogout}>Logout</button>
+                  {/* <button onClick={this.toggleNavbar} className="countdown-link general logout-btn" onClick={this.handleLogout}>Logout</button> */}
 
               </NavItem>
             </Nav>
